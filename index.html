@@ -1,0 +1,114 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="utf-8" />
+  <title>Where’s the Bubbler? — MVP</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+  <!-- Leaflet CSS & JS (jsDelivr CDN) -->
+  <link href="https://cdn.jsdelivr.net/npm/leaflet@1.9.4/dist/leaflet.css" rel="stylesheet" />
+  <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.4/dist/leaflet.js"></script>
+
+  <style>
+    html, body, #map { height: 100%; margin: 0; }
+    #legend {
+      position: absolute; bottom: 10px; left: 10px;
+      background: white; padding: 8px; border: 1px solid #ccc;
+      font-size: 14px; line-height: 20px; z-index: 1000;
+    }
+    #status {
+      position: absolute; top: 10px; right: 10px;
+      background: #fff8e1; border: 1px solid #f0c36d;
+      padding: 8px; font: 12px/1.4 system-ui, sans-serif; z-index: 1000;
+    }
+    #status.ok { background: #e8f5e9; border-color: #66bb6a; }
+    #status.err { background: #ffebee; border-color: #ef5350; }
+    #status pre { margin: 4px 0 0; white-space: pre-wrap; max-width: 300px; }
+  </style>
+</head>
+<body>
+  <div id="map"></div>
+
+  <!-- Legend -->
+  <div id="legend">
+    <img src="https://raw.githubusercontent.com/pointhi/leaflet-color-markers/master/img/marker-icon-blue.png" width="12"> Fountain<br>
+    <img src="https://raw.githubusercontent.com/pointhi/leaflet-color-markers/master/img/marker-icon-green.png" width="12"> Bottle filler
+  </div>
+
+  <!-- Status panel -->
+  <div id="status">Loading…</div>
+
+  <script>
+    const statusBox = document.getElementById('status');
+    const ok = (msg) => { statusBox.className = 'ok'; statusBox.textContent = msg; };
+    const err = (msg, e) => {
+      statusBox.className = 'err';
+      statusBox.innerHTML = msg + (e ? `<pre>${(e && (e.stack||e.message||e))}</pre>` : '');
+      console.error(msg, e || '');
+    };
+
+    // Show JS errors in-page (so we don't have to open devtools)
+    window.onerror = function(message, source, lineno, colno, error) {
+      err('JavaScript error — check file paths & copy/paste:', error || message);
+      return true;
+    };
+
+    (async function init() {
+      try {
+        // 1) Verify Leaflet loaded
+        if (!window.L) { err('Leaflet failed to load (CDN blocked?)'); return; }
+
+        // 2) Create the map
+        const map = L.map('map').setView([43.0731, -89.4012], 12);
+        L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+          maxZoom: 19, attribution: '© OpenStreetMap contributors'
+        }).addTo(map);
+
+        // 3) Fetch your GeoJSON
+        const resp = await fetch('fountains.geojson', { cache: 'no-store' });
+        if (!resp.ok) { err('Could not load fountains.geojson (HTTP ' + resp.status + ')'); return; }
+        const data = await resp.json();
+
+        // 4) Build marker layer with icons
+        const layer = L.geoJSON(data, {
+          pointToLayer: (feature, latlng) => {
+            const bf = (feature.properties?.bottle_filler || '').toLowerCase();
+            const iconUrl = (bf === 'yes')
+              ? 'https://raw.githubusercontent.com/pointhi/leaflet-color-markers/master/img/marker-icon-green.png'
+              : 'https://raw.githubusercontent.com/pointhi/leaflet-color-markers/master/img/marker-icon-blue.png';
+
+            const dropletIcon = L.icon({
+              iconUrl,
+              iconSize: [25, 41],
+              iconAnchor: [12, 41],
+              popupAnchor: [1, -34],
+              shadowUrl: 'https://cdn.jsdelivr.net/npm/leaflet@1.9.4/dist/images/marker-shadow.png',
+              shadowSize: [41, 41],
+              shadowAnchor: [12, 41]
+            });
+
+            return L.marker(latlng, { icon: dropletIcon });
+          },
+          onEachFeature: (feature, layer) => {
+            const p = feature.properties || {};
+            const popup = `
+              <b>${p.name || 'Drinking Fountain'}</b><br>
+              Bottle filler: ${p.bottle_filler || 'Unknown'}<br>
+              Seasonal: ${p.seasonal || 'Unknown'}<br>
+              ${p.note ? 'Notes: ' + p.note : ''}
+            `;
+            layer.bindPopup(popup);
+          }
+        }).addTo(map);
+
+        // 5) Fit bounds if we have features
+        try { map.fitBounds(layer.getBounds()); } catch(e) {}
+
+        ok('Loaded ' + (layer.getLayers().length) + ' fountains');
+      } catch (e) {
+        err('Unexpected error while initializing the map:', e);
+      }
+    })();
+  </script>
+</body>
+</html>
