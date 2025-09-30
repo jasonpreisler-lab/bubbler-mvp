@@ -33,62 +33,79 @@
 
   <!-- Legend -->
   <div id="legend">
-    <img src="https://raw.githubusercontent.com/pointhi/leaflet-color-markers/master/img/marker-icon-blue.png" width="12"> Fountain<br>
-    <img src="https://raw.githubusercontent.com/pointhi/leaflet-color-markers/master/img/marker-icon-green.png" width="12"> Bottle filler
+    <img src="https://raw.githubusercontent.com/pointhi/leaflet-color-markers/master/img/marker-icon-blue.png" width="12"> Fountain (OSM)<br>
+    <img src="https://raw.githubusercontent.com/pointhi/leaflet-color-markers/master/img/marker-icon-green.png" width="12"> Bottle filler (OSM)<br>
+    <img src="https://raw.githubusercontent.com/pointhi/leaflet-color-markers/master/img/marker-icon-red.png" width="12"> Fountain (Google Map)
   </div>
 
   <footer>
-    Data © <a href="https://www.openstreetmap.org/" target="_blank">OpenStreetMap contributors</a> · Built with 💙 in Madison
+    Data © <a href="https://www.openstreetmap.org/" target="_blank">OpenStreetMap contributors</a> · Additional fountains via Google My Maps · Built with 💙 in Madison
   </footer>
 
   <script>
-    (async function init() {
-      const map = L.map('map').setView([43.0731, -89.4012], 12);
-      L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
-        maxZoom: 19,
-        attribution: '© OpenStreetMap contributors'
-      }).addTo(map);
+    const map = L.map('map').setView([43.0731, -89.4012], 12);
+    L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+      maxZoom: 19,
+      attribution: '© OpenStreetMap contributors'
+    }).addTo(map);
 
-      try {
-        const resp = await fetch('fountains.geojson', { cache: 'no-store' });
-        const data = await resp.json();
+    // Helper functions
+    function makeOSMMarker(feature, latlng) {
+      const bf = (feature.properties?.bottle_filler || '').toLowerCase();
+      const iconUrl = (bf === 'yes')
+        ? 'https://raw.githubusercontent.com/pointhi/leaflet-color-markers/master/img/marker-icon-green.png'
+        : 'https://raw.githubusercontent.com/pointhi/leaflet-color-markers/master/img/marker-icon-blue.png';
+      const dropletIcon = L.icon({
+        iconUrl,
+        iconSize: [25, 41], iconAnchor: [12, 41], popupAnchor: [1, -34],
+        shadowUrl: 'https://cdn.jsdelivr.net/npm/leaflet@1.9.4/dist/images/marker-shadow.png',
+        shadowSize: [41, 41], shadowAnchor: [12, 41]
+      });
+      return L.marker(latlng, { icon: dropletIcon });
+    }
 
-        const layer = L.geoJSON(data, {
-          pointToLayer: (feature, latlng) => {
-            const bf = (feature.properties?.bottle_filler || '').toLowerCase();
-            const iconUrl = (bf === 'yes')
-              ? 'https://raw.githubusercontent.com/pointhi/leaflet-color-markers/master/img/marker-icon-green.png'
-              : 'https://raw.githubusercontent.com/pointhi/leaflet-color-markers/master/img/marker-icon-blue.png';
+    function makeGoogleMarker(feature, latlng) {
+      const iconUrl = 'https://raw.githubusercontent.com/pointhi/leaflet-color-markers/master/img/marker-icon-red.png';
+      const redIcon = L.icon({
+        iconUrl,
+        iconSize: [25, 41], iconAnchor: [12, 41], popupAnchor: [1, -34],
+        shadowUrl: 'https://cdn.jsdelivr.net/npm/leaflet@1.9.4/dist/images/marker-shadow.png',
+        shadowSize: [41, 41], shadowAnchor: [12, 41]
+      });
+      return L.marker(latlng, { icon: redIcon });
+    }
 
-            const dropletIcon = L.icon({
-              iconUrl,
-              iconSize: [25, 41],
-              iconAnchor: [12, 41],
-              popupAnchor: [1, -34],
-              shadowUrl: 'https://cdn.jsdelivr.net/npm/leaflet@1.9.4/dist/images/marker-shadow.png',
-              shadowSize: [41, 41],
-              shadowAnchor: [12, 41]
-            });
+    function makePopup(feature, layer) {
+      const p = feature.properties || {};
+      const popup = `
+        <b>${p.name || 'Drinking Fountain'}</b><br>
+        Bottle filler: ${p.bottle_filler || 'Unknown'}<br>
+        Seasonal: ${p.seasonal || 'Unknown'}<br>
+        ${p.note ? 'Notes: ' + p.note : ''}
+      `;
+      layer.bindPopup(popup);
+    }
 
-            return L.marker(latlng, { icon: dropletIcon });
-          },
-          onEachFeature: (feature, layer) => {
-            const p = feature.properties || {};
-            const popup = `
-              <b>${p.name || 'Drinking Fountain'}</b><br>
-              Bottle filler: ${p.bottle_filler || 'Unknown'}<br>
-              Seasonal: ${p.seasonal || 'Unknown'}<br>
-              ${p.note ? 'Notes: ' + p.note : ''}
-            `;
-            layer.bindPopup(popup);
-          }
+    // Load OSM fountains
+    fetch('fountains.geojson')
+      .then(res => res.json())
+      .then(data => {
+        const osmLayer = L.geoJSON(data, {
+          pointToLayer: makeOSMMarker,
+          onEachFeature: makePopup
         }).addTo(map);
+        try { map.fitBounds(osmLayer.getBounds()); } catch(e) {}
+      });
 
-        try { map.fitBounds(layer.getBounds()); } catch(e) {}
-      } catch (e) {
-        console.error("Error loading fountains.geojson:", e);
-      }
-    })();
+    // Load Google fountains
+    fetch('fountains_google.geojson')
+      .then(res => res.json())
+      .then(data => {
+        const googleLayer = L.geoJSON(data, {
+          pointToLayer: makeGoogleMarker,
+          onEachFeature: makePopup
+        }).addTo(map);
+      });
   </script>
 </body>
 </html>
