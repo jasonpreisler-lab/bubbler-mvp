@@ -2,7 +2,7 @@
 <html>
 <head>
   <meta charset="utf-8" />
-  <title>Where’s the Bubbler? — Live Sheet</title>
+  <title>Where’s the Bubbler? — Live Sheet with Filters</title>
   <meta name="viewport" content="width=device-width, initial-scale=1" />
 
   <!-- Leaflet CSS & JS -->
@@ -16,6 +16,7 @@
     header { background: #1976d2; color: white; padding: 12px 20px; }
     header h1 { margin: 0; font-size: 20px; }
     header p { margin: 0; font-size: 14px; opacity: 0.9; }
+    #filters { padding: 8px 20px; background: #f0f0f0; font-size: 14px; }
     #map { flex: 1; }
     footer { background: #f5f5f5; padding: 8px 20px; font-size: 12px; text-align: center; border-top: 1px solid #ddd; }
     #legend {
@@ -28,8 +29,15 @@
 <body>
   <header>
     <h1>💧 Where’s the Bubbler?</h1>
-    <p>Find water fountains and bottle fillers around Dane County</p>
+    <p>Find water fountains and amenities around Dane County</p>
   </header>
+
+  <!-- Filter checkboxes -->
+  <div id="filters">
+    <label><input type="checkbox" id="filterRestrooms"> 🚻 Restrooms</label>
+    <label><input type="checkbox" id="filterShelter"> 🏞️ Shelter</label>
+    <label><input type="checkbox" id="filterTables"> 🍽️ Tables</label>
+  </div>
 
   <div id="map"></div>
 
@@ -43,6 +51,7 @@
   </footer>
 
   <script>
+    // 👉 Replace with your actual Sheet ID
     const SHEET_CSV_URL = "https://docs.google.com/spreadsheets/d/1PLY-8llP5O8NO7PMGXRD5urL32NT4z8taT8usPl3t9w/export?format=csv";
 
     const map = L.map('map').setView([43.0731, -89.4012], 12);
@@ -51,9 +60,13 @@
       attribution: '© OpenStreetMap contributors'
     }).addTo(map);
 
+    let allMarkers = [];
+
     function makeMarker(row) {
-      const bf = (row.bottle_filler || "").toLowerCase();
-      const iconUrl = (bf === "yes")
+      const bfRaw = (row.bottle_filler || "").toString().trim().toLowerCase();
+      const hasBottleFiller = bfRaw === "yes";
+
+      const iconUrl = hasBottleFiller
         ? "https://raw.githubusercontent.com/pointhi/leaflet-color-markers/master/img/marker-icon-green.png"
         : "https://raw.githubusercontent.com/pointhi/leaflet-color-markers/master/img/marker-icon-blue.png";
 
@@ -73,29 +86,64 @@
 
       const popup = `
         <b>${row.name || "Drinking Fountain"}</b>
-        ${bf === "yes" ? "<br>🚰 Bottle filler available" : ""}
-        ${row.seasonal?.toLowerCase() === "yes" ? "<br>❄️ Seasonal (may be off in winter)" : ""}
+        ${hasBottleFiller ? "<br>🚰 Bottle filler available" : ""}
+        ${row.seasonal?.toLowerCase().trim() === "yes" ? "<br>❄️ Seasonal (may be off in winter)" : ""}
+        ${row.restrooms?.toLowerCase().trim() === "yes" ? "<br>🚻 Restrooms nearby" : ""}
+        ${row.shelter?.toLowerCase().trim() === "yes" ? "<br>🏞️ Shelter available" : ""}
+        ${row.tables?.toLowerCase().trim() === "yes" ? "<br>🍽️ Picnic tables available" : ""}
         ${row.note ? `<br><small>${row.note}</small>` : ""}
       `;
 
-      return L.marker([lat, lon], { icon }).bindPopup(popup);
+      const marker = L.marker([lat, lon], { icon }).bindPopup(popup);
+      marker.feature = { properties: row };
+      return marker;
     }
 
-    // Load data from Google Sheets CSV
+    function applyFilters() {
+      const restroomsOn = document.getElementById("filterRestrooms").checked;
+      const shelterOn = document.getElementById("filterShelter").checked;
+      const tablesOn = document.getElementById("filterTables").checked;
+
+      // remove all markers
+      allMarkers.forEach(m => map.removeLayer(m));
+
+      // add back only those that match
+      const filtered = allMarkers.filter(m => {
+        const p = m.feature.properties;
+        if (restroomsOn && (p.restrooms || "").toLowerCase().trim() !== "yes") return false;
+        if (shelterOn && (p.shelter || "").toLowerCase().trim() !== "yes") return false;
+        if (tablesOn && (p.tables || "").toLowerCase().trim() !== "yes") return false;
+        return true;
+      });
+
+      filtered.forEach(m => map.addLayer(m));
+
+      if (filtered.length > 0) {
+        const group = L.featureGroup(filtered);
+        map.fitBounds(group.getBounds());
+      }
+    }
+
+    // Load data from Google Sheets
     Papa.parse(SHEET_CSV_URL, {
       download: true,
       header: true,
       complete: function(results) {
-        const markers = [];
         results.data.forEach(row => {
           const marker = makeMarker(row);
-          if (marker) markers.push(marker);
+          if (marker) allMarkers.push(marker);
         });
 
-        const group = L.featureGroup(markers).addTo(map);
+        allMarkers.forEach(m => map.addLayer(m));
+        const group = L.featureGroup(allMarkers);
         try { map.fitBounds(group.getBounds()); } catch(e) {}
       }
     });
+
+    // Hook up filters
+    document.getElementById("filterRestrooms").addEventListener("change", applyFilters);
+    document.getElementById("filterShelter").addEventListener("change", applyFilters);
+    document.getElementById("filterTables").addEventListener("change", applyFilters);
   </script>
 </body>
 </html>
