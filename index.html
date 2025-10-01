@@ -33,13 +33,12 @@
 
   <!-- Legend -->
   <div id="legend">
-    <img src="https://raw.githubusercontent.com/pointhi/leaflet-color-markers/master/img/marker-icon-blue.png" width="12"> Fountain (OSM)<br>
-    <img src="https://raw.githubusercontent.com/pointhi/leaflet-color-markers/master/img/marker-icon-green.png" width="12"> Bottle filler (OSM)<br>
-    <img src="https://raw.githubusercontent.com/pointhi/leaflet-color-markers/master/img/marker-icon-red.png" width="12"> Fountain (Google Map)
+    <img src="https://raw.githubusercontent.com/pointhi/leaflet-color-markers/master/img/marker-icon-blue.png" width="12"> Fountain<br>
+    <img src="https://raw.githubusercontent.com/pointhi/leaflet-color-markers/master/img/marker-icon-green.png" width="12"> Fountain with bottle filler
   </div>
 
   <footer>
-    Data © <a href="https://www.openstreetmap.org/" target="_blank">OpenStreetMap contributors</a> · Additional fountains via Google My Maps · Built with 💙 in Madison
+    Data © <a href="https://www.openstreetmap.org/" target="_blank">OpenStreetMap contributors</a> · Built with 💙 in Madison
   </footer>
 
   <script>
@@ -49,62 +48,37 @@
       attribution: '© OpenStreetMap contributors'
     }).addTo(map);
 
-    // Helper functions
     function makeOSMMarker(feature, latlng) {
       const bf = (feature.properties?.bottle_filler || '').toLowerCase();
       const iconUrl = (bf === 'yes')
         ? 'https://raw.githubusercontent.com/pointhi/leaflet-color-markers/master/img/marker-icon-green.png'
         : 'https://raw.githubusercontent.com/pointhi/leaflet-color-markers/master/img/marker-icon-blue.png';
-      const dropletIcon = L.icon({
+      const icon = L.icon({
         iconUrl,
-        iconSize: [25, 41], iconAnchor: [12, 41], popupAnchor: [1, -34],
+        iconSize: [25, 41],
+        iconAnchor: [12, 41],
+        popupAnchor: [1, -34],
         shadowUrl: 'https://cdn.jsdelivr.net/npm/leaflet@1.9.4/dist/images/marker-shadow.png',
-        shadowSize: [41, 41], shadowAnchor: [12, 41]
+        shadowSize: [41, 41],
+        shadowAnchor: [12, 41]
       });
-      return L.marker(latlng, { icon: dropletIcon });
-    }
-
-    function makeGoogleMarker(feature, latlng) {
-      const iconUrl = 'https://raw.githubusercontent.com/pointhi/leaflet-color-markers/master/img/marker-icon-red.png';
-      const redIcon = L.icon({
-        iconUrl,
-        iconSize: [25, 41], iconAnchor: [12, 41], popupAnchor: [1, -34],
-        shadowUrl: 'https://cdn.jsdelivr.net/npm/leaflet@1.9.4/dist/images/marker-shadow.png',
-        shadowSize: [41, 41], shadowAnchor: [12, 41]
-      });
-      return L.marker(latlng, { icon: redIcon });
+      return L.marker(latlng, { icon });
     }
 
     function makePopup(feature, layer) {
       const p = feature.properties || {};
-      const popup = `
-        <b>${p.name || 'Drinking Fountain'}</b><br>
-        Bottle filler: ${p.bottle_filler || 'Unknown'}<br>
-        Seasonal: ${p.seasonal || 'Unknown'}<br>
-        ${p.note ? 'Notes: ' + p.note : ''}
-      `;
-      layer.bindPopup(popup);
+      let html = `<b>${p.name || 'Drinking Fountain'}</b>`;
+      if ((p.bottle_filler || '').toLowerCase() === 'yes') html += `<br>🚰 Bottle filler available`;
+      if ((p.seasonal || '').toLowerCase() === 'yes') html += `<br>❄️ Seasonal (may be off in winter)`;
+      if (p.note) html += `<br><small>${p.note}</small>`;
+      layer.bindPopup(html);
     }
 
-    // Load OSM fountains
-    fetch('fountains.geojson')
-      .then(res => res.json())
+    fetch('fountains_clean.geojson', { cache: 'no-store' })
+      .then(r => r.json())
       .then(data => {
-        const osmLayer = L.geoJSON(data, {
-          pointToLayer: makeOSMMarker,
-          onEachFeature: makePopup
-        }).addTo(map);
-        try { map.fitBounds(osmLayer.getBounds()); } catch(e) {}
-      });
-
-    // Load Google fountains
-    fetch('fountains_google.geojson')
-      .then(res => res.json())
-      .then(data => {
-        const googleLayer = L.geoJSON(data, {
-          pointToLayer: makeGoogleMarker,
-          onEachFeature: makePopup
-        }).addTo(map);
+        const layer = L.geoJSON(data, { pointToLayer: makeOSMMarker, onEachFeature: makePopup }).addTo(map);
+        try { map.fitBounds(layer.getBounds()); } catch(e) {}
       });
   </script>
 </body>

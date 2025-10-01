@@ -1,0 +1,5122 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": 445208950,
+        "@type": "node",
+        "name": "Amherst Drive, College Hills, Shorewood Hills, Dane County, Wisconsin, 53705, United States",
+        "operator": "",
+        "access": "",
+        "bottle_filler": "",
+        "seasonal": "",
+        "indoor": "",
+        "drinking_water": "",
+        "description": "",
+        "note": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -89.4418949,
+          43.0806984
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": 1205082394,
+        "@type": "node",
+        "name": "Lower Wisconsin State Riverway",
+        "operator": "",
+        "access": "",
+        "bottle_filler": "",
+        "seasonal": "",
+        "indoor": "",
+        "drinking_water": "",
+        "description": "",
+        "note": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -89.7270022,
+          43.2299495
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": 1236929873,
+        "@type": "node",
+        "name": "South Randall Avenue, Madison",
+        "operator": "",
+        "access": "",
+        "bottle_filler": "",
+        "seasonal": "",
+        "indoor": "",
+        "drinking_water": "",
+        "description": "",
+        "note": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -89.4100793,
+          43.0592687
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": 1627172588,
+        "@type": "node",
+        "name": "North Allen Street, Madison",
+        "operator": "",
+        "access": "",
+        "bottle_filler": "",
+        "seasonal": "",
+        "indoor": "",
+        "drinking_water": "",
+        "description": "",
+        "note": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -89.4237204,
+          43.0681173
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": 1673608285,
+        "@type": "node",
+        "name": "Engineering Drive, Madison",
+        "operator": "",
+        "access": "",
+        "bottle_filler": "",
+        "seasonal": "",
+        "indoor": "",
+        "drinking_water": "",
+        "description": "",
+        "note": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -89.4099519,
+          43.0720734
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": 1716973543,
+        "@type": "node",
+        "name": "Glenwood Park at Southwest Commuter Path",
+        "operator": "City of Madison",
+        "access": "yes",
+        "bottle_filler": "",
+        "seasonal": "yes",
+        "indoor": "",
+        "drinking_water": "",
+        "description": "",
+        "note": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -89.4379195,
+          43.0551108
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": 1755664378,
+        "@type": "node",
+        "name": "Elder Place, Madison",
+        "operator": "",
+        "access": "",
+        "bottle_filler": "",
+        "seasonal": "",
+        "indoor": "",
+        "drinking_water": "",
+        "description": "",
+        "note": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -89.4788866,
+          43.0714984
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": 1755666244,
+        "@type": "node",
+        "name": "Owen Conservation Park",
+        "operator": "",
+        "access": "",
+        "bottle_filler": "",
+        "seasonal": "",
+        "indoor": "",
+        "drinking_water": "",
+        "description": "",
+        "note": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -89.4871067,
+          43.0731161
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": 1755667279,
+        "@type": "node",
+        "name": "Wexford Park",
+        "operator": "",
+        "access": "",
+        "bottle_filler": "",
+        "seasonal": "",
+        "indoor": "",
+        "drinking_water": "",
+        "description": "",
+        "note": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -89.5089935,
+          43.0818579
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": 1755667754,
+        "@type": "node",
+        "name": "Voss Parkway, Woodside Heights, Middleton, Dane County, Wisconsin, 53562, United States",
+        "operator": "",
+        "access": "",
+        "bottle_filler": "",
+        "seasonal": "",
+        "indoor": "",
+        "drinking_water": "",
+        "description": "",
+        "note": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -89.5072375,
+          43.0896907
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": 1755667837,
+        "@type": "node",
+        "name": "South Avenue, The Meadows, Middleton, Dane County, Wisconsin, 53562, United States",
+        "operator": "",
+        "access": "",
+        "bottle_filler": "",
+        "seasonal": "",
+        "indoor": "",
+        "drinking_water": "",
+        "description": "",
+        "note": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -89.4951345,
+          43.0918893
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": 1755667954,
+        "@type": "node",
+        "name": "Lake Mendota Drive, Madison",
+        "operator": "",
+        "access": "",
+        "bottle_filler": "",
+        "seasonal": "",
+        "indoor": "",
+        "drinking_water": "",
+        "description": "",
+        "note": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -89.4705119,
+          43.0806002
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": 1756086026,
+        "@type": "node",
+        "name": "Sherwood Road, Madison",
+        "operator": "",
+        "access": "",
+        "bottle_filler": "",
+        "seasonal": "",
+        "indoor": "",
+        "drinking_water": "",
+        "description": "",
+        "note": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -89.4582319,
+          43.051019
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": 1918156739,
+        "@type": "node",
+        "name": "Group Camp Road, Town of Pleasant Springs, Dane County, Wisconsin, United States",
+        "operator": "",
+        "access": "",
+        "bottle_filler": "",
+        "seasonal": "",
+        "indoor": "",
+        "drinking_water": "",
+        "description": "",
+        "note": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -89.2352501,
+          42.9759168
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": 1919587706,
+        "@type": "node",
+        "name": "Group Camp Road, Town of Pleasant Springs, Dane County, Wisconsin, United States",
+        "operator": "",
+        "access": "",
+        "bottle_filler": "",
+        "seasonal": "",
+        "indoor": "",
+        "drinking_water": "",
+        "description": "",
+        "note": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -89.2357758,
+          42.975062
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": 1919597379,
+        "@type": "node",
+        "name": "Bluebird Trail, Town of Pleasant Springs, Dane County, Wisconsin, 53589, United States",
+        "operator": "",
+        "access": "",
+        "bottle_filler": "",
+        "seasonal": "",
+        "indoor": "",
+        "drinking_water": "",
+        "description": "",
+        "note": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -89.2320905,
+          42.9734528
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": 2351682540,
+        "@type": "node",
+        "name": "Odana Road, Madison",
+        "operator": "",
+        "access": "",
+        "bottle_filler": "",
+        "seasonal": "",
+        "indoor": "",
+        "drinking_water": "",
+        "description": "Odana Golf Course Sometimes turned off in late fall through the winter",
+        "note": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -89.45505,
+          43.048725
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": 2477391469,
+        "@type": "node",
+        "name": "Maloney Trail, Fitchburg, Dane County, Wisconsin, 53711, United States",
+        "operator": "",
+        "access": "",
+        "bottle_filler": "",
+        "seasonal": "",
+        "indoor": "",
+        "drinking_water": "",
+        "description": "",
+        "note": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -89.40053,
+          42.98374
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": 2477391470,
+        "@type": "node",
+        "name": "Richardson Street, Byrnewood, Fitchburg, Town of Dunn, Dane County, Wisconsin, 53711, United States",
+        "operator": "",
+        "access": "",
+        "bottle_filler": "",
+        "seasonal": "",
+        "indoor": "",
+        "drinking_water": "",
+        "description": "",
+        "note": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -89.436485,
+          42.992092
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": 2477391471,
+        "@type": "node",
+        "name": "McGaw Park Access Road, North Park, Fitchburg, Dane County, Wisconsin, 53713, United States",
+        "operator": "",
+        "access": "",
+        "bottle_filler": "",
+        "seasonal": "",
+        "indoor": "",
+        "drinking_water": "",
+        "description": "",
+        "note": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -89.40425,
+          42.995354
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": 2477391472,
+        "@type": "node",
+        "name": "Stanbrook Street, Wildwood South, Fitchburg, Dane County, Wisconsin, 53711, United States",
+        "operator": "",
+        "access": "",
+        "bottle_filler": "",
+        "seasonal": "",
+        "indoor": "",
+        "drinking_water": "",
+        "description": "",
+        "note": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -89.444275,
+          42.99799
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": 2477391473,
+        "@type": "node",
+        "name": "Quarry Hill Drive, Quarry Hill, Fitchburg, Dane County, Wisconsin, 53711, United States",
+        "operator": "",
+        "access": "",
+        "bottle_filler": "",
+        "seasonal": "",
+        "indoor": "",
+        "drinking_water": "",
+        "description": "",
+        "note": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -89.4156818,
+          42.9991045
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": 2477391474,
+        "@type": "node",
+        "name": "Cheryl Drive, Tower Hill, Fitchburg, Dane County, Wisconsin, 53711, United States",
+        "operator": "",
+        "access": "",
+        "bottle_filler": "",
+        "seasonal": "",
+        "indoor": "",
+        "drinking_water": "",
+        "description": "",
+        "note": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -89.43123,
+          43.00557
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": 2477391475,
+        "@type": "node",
+        "name": "Crinkle Root Drive, Swan Creek of Nine Springs, Fitchburg, Dane County, Wisconsin, 53713, United States",
+        "operator": "",
+        "access": "",
+        "bottle_filler": "",
+        "seasonal": "",
+        "indoor": "",
+        "drinking_water": "",
+        "description": "Swan Creek Shelter",
+        "note": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -89.39942,
+          43.005665
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": 2477391477,
+        "@type": "node",
+        "name": "Wood Brook Way, Fitchburg, Dane County, Wisconsin, 53711, United States",
+        "operator": "",
+        "access": "",
+        "bottle_filler": "",
+        "seasonal": "",
+        "indoor": "",
+        "drinking_water": "",
+        "description": "McKee Farm Park Shelter",
+        "note": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -89.4323334,
+          43.0113689
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": 2477391478,
+        "@type": "node",
+        "name": "Chapel Valley Road, Chapel Valley, Fitchburg, Dane County, Wisconsin, 53711, United States",
+        "operator": "",
+        "access": "",
+        "bottle_filler": "",
+        "seasonal": "",
+        "indoor": "",
+        "drinking_water": "",
+        "description": "",
+        "note": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -89.4323509,
+          43.0132385
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": 2477391479,
+        "@type": "node",
+        "name": "Arboretum South Entrance",
+        "operator": "",
+        "access": "",
+        "bottle_filler": "",
+        "seasonal": "",
+        "indoor": "",
+        "drinking_water": "",
+        "description": "",
+        "note": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -89.4352433,
+          43.024841
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": 2477391480,
+        "@type": "node",
+        "name": "Leopold Path, Madison",
+        "operator": "",
+        "access": "",
+        "bottle_filler": "",
+        "seasonal": "",
+        "indoor": "",
+        "drinking_water": "",
+        "description": "",
+        "note": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -89.419499,
+          43.031229
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": 2477391481,
+        "@type": "node",
+        "name": "Elver Park Splash Pad",
+        "operator": "",
+        "access": "",
+        "bottle_filler": "",
+        "seasonal": "",
+        "indoor": "",
+        "drinking_water": "",
+        "description": "",
+        "note": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -89.503204,
+          43.03797
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": 2477391483,
+        "@type": "node",
+        "name": "Fish Hatchery Road, Madison",
+        "operator": "",
+        "access": "",
+        "bottle_filler": "",
+        "seasonal": "",
+        "indoor": "",
+        "drinking_water": "",
+        "description": "",
+        "note": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -89.3999,
+          43.04754
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": 2477391484,
+        "@type": "node",
+        "name": "Laub Lane, Madison",
+        "operator": "",
+        "access": "",
+        "bottle_filler": "",
+        "seasonal": "",
+        "indoor": "",
+        "drinking_water": "",
+        "description": "",
+        "note": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -89.46195,
+          43.05647
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": 2477391485,
+        "@type": "node",
+        "name": "Bernie's Beach",
+        "operator": "",
+        "access": "",
+        "bottle_filler": "",
+        "seasonal": "",
+        "indoor": "",
+        "drinking_water": "",
+        "description": "Bernie's Beach",
+        "note": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -89.3892859,
+          43.0568707
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": 2477391487,
+        "@type": "node",
+        "name": "Rowing Club",
+        "operator": "",
+        "access": "",
+        "bottle_filler": "",
+        "seasonal": "",
+        "indoor": "",
+        "drinking_water": "",
+        "description": "",
+        "note": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -89.3889883,
+          43.0649641
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": 2477391488,
+        "@type": "node",
+        "name": "Brittingham Tennis Courts",
+        "operator": "",
+        "access": "",
+        "bottle_filler": "",
+        "seasonal": "",
+        "indoor": "",
+        "drinking_water": "",
+        "description": "",
+        "note": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -89.3869164,
+          43.067396
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": 2477391489,
+        "@type": "node",
+        "name": "Law Park Boat Launch",
+        "operator": "",
+        "access": "",
+        "bottle_filler": "",
+        "seasonal": "",
+        "indoor": "",
+        "drinking_water": "",
+        "description": "",
+        "note": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -89.3766574,
+          43.0745815
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": 2477391491,
+        "@type": "node",
+        "name": "Sherman Avenue, Madison",
+        "operator": "",
+        "access": "",
+        "bottle_filler": "",
+        "seasonal": "",
+        "indoor": "",
+        "drinking_water": "",
+        "description": "",
+        "note": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -89.370575,
+          43.09485
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": 2477395688,
+        "@type": "node",
+        "name": "Schumann Drive, Seminole Forest, Fitchburg, Dane County, Wisconsin, 53711, United States",
+        "operator": "",
+        "access": "",
+        "bottle_filler": "",
+        "seasonal": "",
+        "indoor": "",
+        "drinking_water": "",
+        "description": "Seminole Glenn Park",
+        "note": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -89.45261,
+          43.0097
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": 2477395694,
+        "@type": "node",
+        "name": "Hammersley/Beltline/Southwest Commuter Trail",
+        "operator": "",
+        "access": "",
+        "bottle_filler": "",
+        "seasonal": "",
+        "indoor": "",
+        "drinking_water": "",
+        "description": "Bike Bridge Fountain",
+        "note": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -89.4598236,
+          43.0392898
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": 2477395696,
+        "@type": "node",
+        "name": "Sherwood Road, Madison",
+        "operator": "",
+        "access": "",
+        "bottle_filler": "",
+        "seasonal": "",
+        "indoor": "",
+        "drinking_water": "",
+        "description": "",
+        "note": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -89.458275,
+          43.050915
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": 2477395699,
+        "@type": "node",
+        "name": "Vilas Park Drive, Madison",
+        "operator": "",
+        "access": "",
+        "bottle_filler": "",
+        "seasonal": "",
+        "indoor": "",
+        "drinking_water": "",
+        "description": "",
+        "note": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -89.4138115,
+          43.0589038
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": 2477395700,
+        "@type": "node",
+        "name": "Harrison Street, Madison",
+        "operator": "",
+        "access": "",
+        "bottle_filler": "",
+        "seasonal": "",
+        "indoor": "",
+        "drinking_water": "",
+        "description": "",
+        "note": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -89.41746,
+          43.06453
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": 2477395703,
+        "@type": "node",
+        "name": "Elder Place, Madison",
+        "operator": "",
+        "access": "",
+        "bottle_filler": "",
+        "seasonal": "",
+        "indoor": "",
+        "drinking_water": "",
+        "description": "",
+        "note": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -89.4788292,
+          43.0714671
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": 2477395707,
+        "@type": "node",
+        "name": "Lake Mendota Drive, Madison",
+        "operator": "",
+        "access": "",
+        "bottle_filler": "",
+        "seasonal": "",
+        "indoor": "",
+        "drinking_water": "",
+        "description": "",
+        "note": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -89.4703,
+          43.080563
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": 2477395708,
+        "@type": "node",
+        "name": "Sawmill Road, Madison",
+        "operator": "",
+        "access": "",
+        "bottle_filler": "",
+        "seasonal": "",
+        "indoor": "",
+        "drinking_water": "",
+        "description": "",
+        "note": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -89.50885,
+          43.081776
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": 2477395709,
+        "@type": "node",
+        "name": "Voss Parkway, Woodside Heights, Middleton, Dane County, Wisconsin, 53562, United States",
+        "operator": "",
+        "access": "",
+        "bottle_filler": "",
+        "seasonal": "",
+        "indoor": "",
+        "drinking_water": "",
+        "description": "",
+        "note": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -89.50722,
+          43.089546
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": 2982995506,
+        "@type": "node",
+        "name": "Brittingham Park Path, Madison",
+        "operator": "",
+        "access": "",
+        "bottle_filler": "",
+        "seasonal": "",
+        "indoor": "",
+        "drinking_water": "",
+        "description": "",
+        "note": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -89.3977781,
+          43.0633027
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": 2985376466,
+        "@type": "node",
+        "name": "Atwood Avenue, Madison",
+        "operator": "",
+        "access": "",
+        "bottle_filler": "",
+        "seasonal": "",
+        "indoor": "",
+        "drinking_water": "",
+        "description": "",
+        "note": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -89.3343668,
+          43.0923023
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": 3572793943,
+        "@type": "node",
+        "name": "Dahle Street, Madison",
+        "operator": "",
+        "access": "",
+        "bottle_filler": "",
+        "seasonal": "",
+        "indoor": "",
+        "drinking_water": "",
+        "description": "",
+        "note": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -89.3526225,
+          43.1085475
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": 3645135607,
+        "@type": "node",
+        "name": "International Lane, Madison",
+        "operator": "",
+        "access": "",
+        "bottle_filler": "",
+        "seasonal": "",
+        "indoor": "",
+        "drinking_water": "",
+        "description": "",
+        "note": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -89.3490626,
+          43.1328436
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": 3787974963,
+        "@type": "node",
+        "name": "Stewart Park Parking Lot, Town of Blue Mounds",
+        "operator": "",
+        "access": "",
+        "bottle_filler": "",
+        "seasonal": "",
+        "indoor": "",
+        "drinking_water": "",
+        "description": "",
+        "note": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -89.7448765,
+          43.0178458
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": 4168541757,
+        "@type": "node",
+        "name": "Monona Terrace Rooftop Terrace, Madison",
+        "operator": "",
+        "access": "",
+        "bottle_filler": "",
+        "seasonal": "",
+        "indoor": "",
+        "drinking_water": "",
+        "description": "",
+        "note": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -89.3805521,
+          43.0712902
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": 4168542496,
+        "@type": "node",
+        "name": "Monona Terrace Rooftop Terrace, Madison",
+        "operator": "",
+        "access": "",
+        "bottle_filler": "",
+        "seasonal": "",
+        "indoor": "",
+        "drinking_water": "",
+        "description": "",
+        "note": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -89.3796826,
+          43.07197
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": 4274263375,
+        "@type": "node",
+        "name": "3160, County Highway F, Village of Blue Mounds, Town of Vermont, Dane County, Wisconsin, 53517, United States",
+        "operator": "",
+        "access": "",
+        "bottle_filler": "",
+        "seasonal": "",
+        "indoor": "",
+        "drinking_water": "",
+        "description": "",
+        "note": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -89.8151987,
+          43.0275584
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": 4341712564,
+        "@type": "node",
+        "name": "Military Ridge State Trail, Fitchburg, Dane County, Wisconsin, 53725, United States",
+        "operator": "",
+        "access": "",
+        "bottle_filler": "",
+        "seasonal": "",
+        "indoor": "",
+        "drinking_water": "",
+        "description": "",
+        "note": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -89.4833307,
+          43.004439
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": 4632141711,
+        "@type": "node",
+        "name": "Auburn Drive, Seminole Hills Estates, Fitchburg, Dane County, Wisconsin, 53711, United States",
+        "operator": "",
+        "access": "",
+        "bottle_filler": "",
+        "seasonal": "",
+        "indoor": "",
+        "drinking_water": "",
+        "description": "",
+        "note": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -89.4415206,
+          43.0213082
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": 4632157809,
+        "@type": "node",
+        "name": "Dawley Bike Hub",
+        "operator": "",
+        "access": "",
+        "bottle_filler": "",
+        "seasonal": "",
+        "indoor": "",
+        "drinking_water": "",
+        "description": "",
+        "note": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -89.453117,
+          43.0204438
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": 4687905703,
+        "@type": "node",
+        "name": "Capital City State Trail, Madison",
+        "operator": "",
+        "access": "",
+        "bottle_filler": "",
+        "seasonal": "",
+        "indoor": "",
+        "drinking_water": "",
+        "description": "",
+        "note": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -89.3549381,
+          43.0382123
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": 4687908369,
+        "@type": "node",
+        "name": "Military Ridge State Trail, Village of Blue Mounds, Dane County, Wisconsin, 53517, United States",
+        "operator": "",
+        "access": "",
+        "bottle_filler": "",
+        "seasonal": "",
+        "indoor": "",
+        "drinking_water": "",
+        "description": "",
+        "note": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -89.8328719,
+          43.021424
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": 4687910899,
+        "@type": "node",
+        "name": "Jackson Street, Mount Vernon, Town of Springdale, Dane County, Wisconsin, United States",
+        "operator": "",
+        "access": "",
+        "bottle_filler": "",
+        "seasonal": "",
+        "indoor": "",
+        "drinking_water": "",
+        "description": "",
+        "note": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -89.6554451,
+          42.9448544
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": 4687912112,
+        "@type": "node",
+        "name": "Brook Street, Oregon, Dane County, Wisconsin, 53575, United States",
+        "operator": "",
+        "access": "",
+        "bottle_filler": "",
+        "seasonal": "",
+        "indoor": "",
+        "drinking_water": "",
+        "description": "",
+        "note": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -89.3812528,
+          42.9268163
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": 4687913414,
+        "@type": "node",
+        "name": "Vilas Park Beach",
+        "operator": "",
+        "access": "",
+        "bottle_filler": "",
+        "seasonal": "",
+        "indoor": "",
+        "drinking_water": "",
+        "description": "",
+        "note": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -89.410788,
+          43.0581013
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": 4687938472,
+        "@type": "node",
+        "name": "Hometown Junction Park",
+        "operator": "",
+        "access": "",
+        "bottle_filler": "",
+        "seasonal": "",
+        "indoor": "",
+        "drinking_water": "",
+        "description": "",
+        "note": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -89.533763,
+          42.9873744
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": 4723446889,
+        "@type": "node",
+        "name": "Raritan Road, Wildwood, Fitchburg, Dane County, Wisconsin, 53711, United States",
+        "operator": "",
+        "access": "",
+        "bottle_filler": "",
+        "seasonal": "",
+        "indoor": "",
+        "drinking_water": "",
+        "description": "",
+        "note": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -89.4427176,
+          43.0037736
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": 4784554144,
+        "@type": "node",
+        "name": "UW Arboretum - Near Maintenance Building",
+        "operator": "",
+        "access": "",
+        "bottle_filler": "",
+        "seasonal": "",
+        "indoor": "",
+        "drinking_water": "",
+        "description": "",
+        "note": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -89.4290852,
+          43.0422082
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": 4951363860,
+        "@type": "node",
+        "name": "Forest Corners Park",
+        "operator": "",
+        "access": "",
+        "bottle_filler": "",
+        "seasonal": "",
+        "indoor": "",
+        "drinking_water": "",
+        "description": "",
+        "note": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -89.447669,
+          43.0812842
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": 4972381917,
+        "@type": "node",
+        "name": "My Dream Park Playground",
+        "operator": "",
+        "access": "",
+        "bottle_filler": "",
+        "seasonal": "",
+        "indoor": "",
+        "drinking_water": "",
+        "description": "",
+        "note": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -89.3426348,
+          43.0623595
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": 5031006290,
+        "@type": "node",
+        "name": "Allen Boulevard, Madison",
+        "operator": "",
+        "access": "",
+        "bottle_filler": "",
+        "seasonal": "",
+        "indoor": "",
+        "drinking_water": "",
+        "description": "",
+        "note": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -89.4854699,
+          43.0944041
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": 5340150994,
+        "@type": "node",
+        "name": "Wilshire Drive, Chapel Valley, Fitchburg, Dane County, Wisconsin, 53711, United States",
+        "operator": "",
+        "access": "",
+        "bottle_filler": "",
+        "seasonal": "",
+        "indoor": "",
+        "drinking_water": "",
+        "description": "",
+        "note": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -89.4330448,
+          43.0113061
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": 5447122848,
+        "@type": "node",
+        "name": "Howard Temin Lakeshore Path, Madison",
+        "operator": "",
+        "access": "",
+        "bottle_filler": "",
+        "seasonal": "",
+        "indoor": "",
+        "drinking_water": "",
+        "description": "",
+        "note": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -89.4181216,
+          43.0877593
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": 5642484877,
+        "@type": "node",
+        "name": "State Capitol",
+        "operator": "",
+        "access": "",
+        "bottle_filler": "",
+        "seasonal": "",
+        "indoor": "",
+        "drinking_water": "",
+        "description": "",
+        "note": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -89.3849946,
+          43.074862
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": 5642484878,
+        "@type": "node",
+        "name": "State Capitol",
+        "operator": "",
+        "access": "",
+        "bottle_filler": "",
+        "seasonal": "",
+        "indoor": "",
+        "drinking_water": "",
+        "description": "",
+        "note": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -89.3850026,
+          43.0745489
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": 5642484879,
+        "@type": "node",
+        "name": "State Capitol",
+        "operator": "",
+        "access": "",
+        "bottle_filler": "",
+        "seasonal": "",
+        "indoor": "",
+        "drinking_water": "",
+        "description": "",
+        "note": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -89.3843959,
+          43.0740877
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": 5642484880,
+        "@type": "node",
+        "name": "State Capitol",
+        "operator": "",
+        "access": "",
+        "bottle_filler": "",
+        "seasonal": "",
+        "indoor": "",
+        "drinking_water": "",
+        "description": "",
+        "note": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -89.3839691,
+          43.0740763
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": 5642484881,
+        "@type": "node",
+        "name": "State Capitol",
+        "operator": "",
+        "access": "",
+        "bottle_filler": "",
+        "seasonal": "",
+        "indoor": "",
+        "drinking_water": "",
+        "description": "",
+        "note": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -89.3833456,
+          43.0745226
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": 5642484882,
+        "@type": "node",
+        "name": "State Capitol",
+        "operator": "",
+        "access": "",
+        "bottle_filler": "",
+        "seasonal": "",
+        "indoor": "",
+        "drinking_water": "",
+        "description": "",
+        "note": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -89.3833348,
+          43.0748409
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": 5642484883,
+        "@type": "node",
+        "name": "State Capitol",
+        "operator": "",
+        "access": "",
+        "bottle_filler": "",
+        "seasonal": "",
+        "indoor": "",
+        "drinking_water": "",
+        "description": "",
+        "note": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -89.3839459,
+          43.0753109
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": 5642484884,
+        "@type": "node",
+        "name": "State Capitol",
+        "operator": "",
+        "access": "",
+        "bottle_filler": "",
+        "seasonal": "",
+        "indoor": "",
+        "drinking_water": "",
+        "description": "",
+        "note": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -89.3843766,
+          43.075311
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": 6072162800,
+        "@type": "node",
+        "name": "Vilas Park Drive, Madison",
+        "operator": "",
+        "access": "",
+        "bottle_filler": "",
+        "seasonal": "spring;summer;autumn",
+        "indoor": "",
+        "drinking_water": "",
+        "description": "",
+        "note": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -89.4107996,
+          43.0613824
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": 6170863761,
+        "@type": "node",
+        "name": "Wilshire Drive, Seminole Ridge, Fitchburg, Dane County, Wisconsin, 53711, United States",
+        "operator": "",
+        "access": "",
+        "bottle_filler": "",
+        "seasonal": "",
+        "indoor": "",
+        "drinking_water": "",
+        "description": "",
+        "note": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -89.4407284,
+          43.0123285
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": 6188016365,
+        "@type": "node",
+        "name": "Brendan Avenue, Fitchburg, Dane County, Wisconsin, 53711, United States",
+        "operator": "",
+        "access": "",
+        "bottle_filler": "",
+        "seasonal": "",
+        "indoor": "",
+        "drinking_water": "",
+        "description": "",
+        "note": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -89.4311346,
+          43.0129202
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": 6221446288,
+        "@type": "node",
+        "name": "Martin Street, Madison",
+        "operator": "",
+        "access": "",
+        "bottle_filler": "",
+        "seasonal": "",
+        "indoor": "",
+        "drinking_water": "",
+        "description": "",
+        "note": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -89.4054915,
+          43.042656
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": 6292492781,
+        "@type": "node",
+        "name": "Lower Yahara River Trail, Madison",
+        "operator": "",
+        "access": "",
+        "bottle_filler": "",
+        "seasonal": "",
+        "indoor": "",
+        "drinking_water": "",
+        "description": "",
+        "note": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -89.3442829,
+          43.026567
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": 6292492782,
+        "@type": "node",
+        "name": "Lake Farm Road, Madison",
+        "operator": "",
+        "access": "",
+        "bottle_filler": "",
+        "seasonal": "",
+        "indoor": "",
+        "drinking_water": "",
+        "description": "",
+        "note": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -89.3447225,
+          43.0264816
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": 6292492783,
+        "@type": "node",
+        "name": "Lower Yahara River Trail, Madison",
+        "operator": "",
+        "access": "",
+        "bottle_filler": "",
+        "seasonal": "",
+        "indoor": "",
+        "drinking_water": "",
+        "description": "",
+        "note": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -89.3442864,
+          43.0263054
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": 6292492784,
+        "@type": "node",
+        "name": "Libby Road, Madison",
+        "operator": "",
+        "access": "",
+        "bottle_filler": "",
+        "seasonal": "",
+        "indoor": "",
+        "drinking_water": "",
+        "description": "",
+        "note": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -89.3447272,
+          43.0259311
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": 6292492985,
+        "@type": "node",
+        "name": "Libby Road, Madison",
+        "operator": "",
+        "access": "",
+        "bottle_filler": "",
+        "seasonal": "",
+        "indoor": "",
+        "drinking_water": "",
+        "description": "",
+        "note": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -89.3440389,
+          43.0259268
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": 6292492986,
+        "@type": "node",
+        "name": "Lower Yahara River Trail, Madison",
+        "operator": "",
+        "access": "",
+        "bottle_filler": "",
+        "seasonal": "",
+        "indoor": "",
+        "drinking_water": "",
+        "description": "",
+        "note": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -89.343311,
+          43.026063
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": 6292492987,
+        "@type": "node",
+        "name": "Libby Road, Madison",
+        "operator": "",
+        "access": "",
+        "bottle_filler": "",
+        "seasonal": "",
+        "indoor": "",
+        "drinking_water": "",
+        "description": "",
+        "note": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -89.3427827,
+          43.0259239
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": 6292492988,
+        "@type": "node",
+        "name": "Lower Yahara River Trail, Madison",
+        "operator": "",
+        "access": "",
+        "bottle_filler": "",
+        "seasonal": "",
+        "indoor": "",
+        "drinking_water": "",
+        "description": "",
+        "note": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -89.3437511,
+          43.0264948
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": 6332216882,
+        "@type": "node",
+        "name": "East Towne Mall, Madison",
+        "operator": "",
+        "access": "",
+        "bottle_filler": "",
+        "seasonal": "",
+        "indoor": "",
+        "drinking_water": "",
+        "description": "",
+        "note": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -89.305574,
+          43.1255858
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": 6340870841,
+        "@type": "node",
+        "name": "International Lane, Madison",
+        "operator": "",
+        "access": "",
+        "bottle_filler": "",
+        "seasonal": "",
+        "indoor": "",
+        "drinking_water": "",
+        "description": "",
+        "note": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -89.345686,
+          43.1359006
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": 6340870842,
+        "@type": "node",
+        "name": "International Lane, Madison",
+        "operator": "",
+        "access": "",
+        "bottle_filler": "",
+        "seasonal": "",
+        "indoor": "",
+        "drinking_water": "",
+        "description": "",
+        "note": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -89.3456337,
+          43.1367461
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": 6398405984,
+        "@type": "node",
+        "name": "Milwaukee Street, McFarland, Dane County, Wisconsin, 53558, United States",
+        "operator": "Village of McFarland",
+        "access": "yes",
+        "bottle_filler": "",
+        "seasonal": "",
+        "indoor": "",
+        "drinking_water": "",
+        "description": "",
+        "note": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -89.2875936,
+          43.0131902
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": 6432832514,
+        "@type": "node",
+        "name": "Great Gray Drive, Madison",
+        "operator": "",
+        "access": "",
+        "bottle_filler": "",
+        "seasonal": "",
+        "indoor": "",
+        "drinking_water": "",
+        "description": "",
+        "note": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -89.2944121,
+          43.0367989
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": 6458902107,
+        "@type": "node",
+        "name": "South Randall Avenue, Madison",
+        "operator": "",
+        "access": "",
+        "bottle_filler": "",
+        "seasonal": "",
+        "indoor": "",
+        "drinking_water": "",
+        "description": "",
+        "note": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -89.4103954,
+          43.060457
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": 6458919033,
+        "@type": "node",
+        "name": "Southwest Bike Path, Madison",
+        "operator": "City of Madison",
+        "access": "yes",
+        "bottle_filler": "",
+        "seasonal": "yes",
+        "indoor": "",
+        "drinking_water": "",
+        "description": "",
+        "note": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -89.4134149,
+          43.0675386
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": 6530523515,
+        "@type": "node",
+        "name": "Yahara Place Park",
+        "operator": "",
+        "access": "",
+        "bottle_filler": "",
+        "seasonal": "",
+        "indoor": "",
+        "drinking_water": "",
+        "description": "",
+        "note": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -89.3522455,
+          43.0870605
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": 6530523521,
+        "@type": "node",
+        "name": "Lakeland Avenue, Madison",
+        "operator": "",
+        "access": "",
+        "bottle_filler": "",
+        "seasonal": "",
+        "indoor": "",
+        "drinking_water": "",
+        "description": "",
+        "note": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -89.3454787,
+          43.0900739
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": 6530526847,
+        "@type": "node",
+        "name": "Capital City State Trail, Madison",
+        "operator": "",
+        "access": "",
+        "bottle_filler": "",
+        "seasonal": "",
+        "indoor": "",
+        "drinking_water": "",
+        "description": "",
+        "note": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -89.3492025,
+          43.0934021
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": 6577636600,
+        "@type": "node",
+        "name": "Schluter Beach",
+        "operator": "",
+        "access": "yes",
+        "bottle_filler": "",
+        "seasonal": "",
+        "indoor": "no",
+        "drinking_water": "",
+        "description": "",
+        "note": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -89.333776,
+          43.0719497
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": 6582531980,
+        "@type": "node",
+        "name": "Post Road, Madison",
+        "operator": "",
+        "access": "",
+        "bottle_filler": "",
+        "seasonal": "",
+        "indoor": "",
+        "drinking_water": "",
+        "description": "",
+        "note": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -89.4000129,
+          43.0263422
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": 6589666225,
+        "@type": "node",
+        "name": "Sprocket Drive, Fitchburg, Dane County, Wisconsin, 53725, United States",
+        "operator": "City of Fitchburg",
+        "access": "yes",
+        "bottle_filler": "",
+        "seasonal": "",
+        "indoor": "",
+        "drinking_water": "",
+        "description": "",
+        "note": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -89.4677321,
+          43.0191922
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": 6595470311,
+        "@type": "node",
+        "name": "Lake Farm Park",
+        "operator": "",
+        "access": "",
+        "bottle_filler": "",
+        "seasonal": "",
+        "indoor": "",
+        "drinking_water": "",
+        "description": "",
+        "note": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -89.3436991,
+          43.0261991
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": 6642230050,
+        "@type": "node",
+        "name": "Lower Yahara River Trail, Madison",
+        "operator": "",
+        "access": "",
+        "bottle_filler": "",
+        "seasonal": "",
+        "indoor": "",
+        "drinking_water": "",
+        "description": "",
+        "note": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -89.3278163,
+          43.031333
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": 6642230051,
+        "@type": "node",
+        "name": "Lower Yahara River Trail, Madison",
+        "operator": "",
+        "access": "",
+        "bottle_filler": "",
+        "seasonal": "",
+        "indoor": "",
+        "drinking_water": "",
+        "description": "",
+        "note": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -89.3303092,
+          43.0294291
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": 6642230052,
+        "@type": "node",
+        "name": "Libby Road, Madison",
+        "operator": "",
+        "access": "",
+        "bottle_filler": "",
+        "seasonal": "",
+        "indoor": "",
+        "drinking_water": "",
+        "description": "",
+        "note": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -89.3323891,
+          43.0260572
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": 6784112366,
+        "@type": "node",
+        "name": "Boardwalk, Town of Burke, Dane County, Wisconsin, 53598, United States",
+        "operator": "",
+        "access": "",
+        "bottle_filler": "",
+        "seasonal": "",
+        "indoor": "",
+        "drinking_water": "",
+        "description": "",
+        "note": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -89.3179467,
+          43.1855727
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": 6796075853,
+        "@type": "node",
+        "name": "Scheidegger Forest, 1828, Range Trail, Verona, Dane County, Wisconsin, 53593, United States",
+        "operator": "",
+        "access": "",
+        "bottle_filler": "",
+        "seasonal": "",
+        "indoor": "",
+        "drinking_water": "",
+        "description": "",
+        "note": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -89.5223977,
+          42.9539491
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": 6804207251,
+        "@type": "node",
+        "name": "South Whitney Way, Jamestown, Fitchburg, Dane County, Wisconsin, 53711, United States",
+        "operator": "",
+        "access": "",
+        "bottle_filler": "",
+        "seasonal": "",
+        "indoor": "",
+        "drinking_water": "",
+        "description": "",
+        "note": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -89.474951,
+          43.0261981
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": 7105914875,
+        "@type": "node",
+        "name": "Acewood Park",
+        "operator": "",
+        "access": "",
+        "bottle_filler": "",
+        "seasonal": "",
+        "indoor": "",
+        "drinking_water": "",
+        "description": "",
+        "note": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -89.3034008,
+          43.0774656
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": 7402697957,
+        "@type": "node",
+        "name": "Ice Age Trail, Town of Verona, Dane County, Wisconsin, 63719, United States",
+        "operator": "",
+        "access": "",
+        "bottle_filler": "",
+        "seasonal": "",
+        "indoor": "",
+        "drinking_water": "",
+        "description": "",
+        "note": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -89.5196859,
+          42.9981868
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": 7409270993,
+        "@type": "node",
+        "name": "Revival Ridge, Madison",
+        "operator": "",
+        "access": "",
+        "bottle_filler": "",
+        "seasonal": "",
+        "indoor": "",
+        "drinking_water": "",
+        "description": "",
+        "note": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -89.458595,
+          43.0269703
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": 7542461949,
+        "@type": "node",
+        "name": "Radicchio Drive, Terravessa, Fitchburg, Dane County, Wisconsin, 53713, United States",
+        "operator": "City of Fitchburg",
+        "access": "yes",
+        "bottle_filler": "",
+        "seasonal": "",
+        "indoor": "",
+        "drinking_water": "",
+        "description": "",
+        "note": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -89.3698904,
+          43.0094827
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": 7661511494,
+        "@type": "node",
+        "name": "1st Street, Downtown, Village of Prairie du Sac, Sauk County, Wisconsin, 53578, United States",
+        "operator": "",
+        "access": "",
+        "bottle_filler": "",
+        "seasonal": "",
+        "indoor": "",
+        "drinking_water": "",
+        "description": "",
+        "note": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -89.7218792,
+          43.284618
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": 7729494228,
+        "@type": "node",
+        "name": "Farwell Street, McFarland, Dane County, Wisconsin, 53558, United States",
+        "operator": "Village of McFarkand",
+        "access": "yes",
+        "bottle_filler": "",
+        "seasonal": "",
+        "indoor": "",
+        "drinking_water": "",
+        "description": "",
+        "note": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -89.2901762,
+          43.0131447
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": 8430514542,
+        "@type": "node",
+        "name": "Campground Road, Town of Brigham",
+        "operator": "Wisconsin Department of Natural Resources",
+        "access": "",
+        "bottle_filler": "",
+        "seasonal": "",
+        "indoor": "no",
+        "drinking_water": "",
+        "description": "",
+        "note": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -89.8522079,
+          43.0217532
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": 8430514545,
+        "@type": "node",
+        "name": "Campground Road, Town of Brigham",
+        "operator": "Wisconsin Department of Natural Resources",
+        "access": "",
+        "bottle_filler": "",
+        "seasonal": "",
+        "indoor": "",
+        "drinking_water": "",
+        "description": "",
+        "note": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -89.8545127,
+          43.0215884
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": 8430514550,
+        "@type": "node",
+        "name": "Campground Road, Town of Brigham",
+        "operator": "",
+        "access": "",
+        "bottle_filler": "",
+        "seasonal": "",
+        "indoor": "",
+        "drinking_water": "",
+        "description": "",
+        "note": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -89.8510393,
+          43.022329
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": 8430514551,
+        "@type": "node",
+        "name": "Campground Road, Town of Brigham",
+        "operator": "",
+        "access": "",
+        "bottle_filler": "",
+        "seasonal": "",
+        "indoor": "no",
+        "drinking_water": "yes",
+        "description": "",
+        "note": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -89.8495392,
+          43.0224856
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": 8430514553,
+        "@type": "node",
+        "name": "Campground Road, Town of Brigham",
+        "operator": "",
+        "access": "",
+        "bottle_filler": "",
+        "seasonal": "",
+        "indoor": "",
+        "drinking_water": "",
+        "description": "",
+        "note": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -89.8559556,
+          43.021736
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": 8430514556,
+        "@type": "node",
+        "name": "Campground Trail, Town of Brigham",
+        "operator": "",
+        "access": "",
+        "bottle_filler": "",
+        "seasonal": "",
+        "indoor": "",
+        "drinking_water": "",
+        "description": "",
+        "note": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -89.8564187,
+          43.0223241
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": 8430514557,
+        "@type": "node",
+        "name": "Campground Trail, Town of Brigham",
+        "operator": "",
+        "access": "",
+        "bottle_filler": "",
+        "seasonal": "",
+        "indoor": "",
+        "drinking_water": "",
+        "description": "",
+        "note": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -89.857005,
+          43.0227153
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": 8810068679,
+        "@type": "node",
+        "name": "Inland Way, Monona, Dane County, Wisconsin, 53713, United States",
+        "operator": "",
+        "access": "",
+        "bottle_filler": "",
+        "seasonal": "",
+        "indoor": "",
+        "drinking_water": "",
+        "description": "",
+        "note": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -89.3373938,
+          43.048367
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": 8949630674,
+        "@type": "node",
+        "name": "Lake Loop, Madison",
+        "operator": "",
+        "access": "",
+        "bottle_filler": "",
+        "seasonal": "",
+        "indoor": "",
+        "drinking_water": "",
+        "description": "",
+        "note": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -89.3763546,
+          43.0543805
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": 8949630675,
+        "@type": "node",
+        "name": "Yahara River at Bike Path",
+        "operator": "",
+        "access": "",
+        "bottle_filler": "",
+        "seasonal": "",
+        "indoor": "",
+        "drinking_water": "",
+        "description": "",
+        "note": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -89.3590683,
+          43.0880657
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": 8949630676,
+        "@type": "node",
+        "name": "Waunona Way, Madison",
+        "operator": "",
+        "access": "",
+        "bottle_filler": "",
+        "seasonal": "",
+        "indoor": "",
+        "drinking_water": "",
+        "description": "",
+        "note": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -89.3586245,
+          43.0471844
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": 8949630677,
+        "@type": "node",
+        "name": "Sherman Avenue, Madison",
+        "operator": "",
+        "access": "",
+        "bottle_filler": "",
+        "seasonal": "",
+        "indoor": "",
+        "drinking_water": "",
+        "description": "",
+        "note": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -89.3721523,
+          43.0927552
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": 8949665812,
+        "@type": "node",
+        "name": "Northland Manor Park",
+        "operator": "",
+        "access": "",
+        "bottle_filler": "",
+        "seasonal": "",
+        "indoor": "",
+        "drinking_water": "",
+        "description": "",
+        "note": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -89.3805603,
+          43.1471691
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": 8949665813,
+        "@type": "node",
+        "name": "Olbrich Park - Walter St",
+        "operator": "",
+        "access": "",
+        "bottle_filler": "",
+        "seasonal": "",
+        "indoor": "",
+        "drinking_water": "",
+        "description": "",
+        "note": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -89.3295283,
+          43.089274
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": 8949665814,
+        "@type": "node",
+        "name": "Blackhawk Path",
+        "operator": "",
+        "access": "",
+        "bottle_filler": "",
+        "seasonal": "",
+        "indoor": "",
+        "drinking_water": "",
+        "description": "",
+        "note": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -89.4551416,
+          43.07687
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": 8949665815,
+        "@type": "node",
+        "name": "Pheasant Branch Conservancy Northeast Trail, Redtail Ackers, Middleton, Dane County, Wisconsin, 53562, United States",
+        "operator": "",
+        "access": "",
+        "bottle_filler": "",
+        "seasonal": "",
+        "indoor": "",
+        "drinking_water": "",
+        "description": "",
+        "note": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -89.4773564,
+          43.1185772
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": 8949696849,
+        "@type": "node",
+        "name": "Wingra Creek Parkway, Madison",
+        "operator": "",
+        "access": "",
+        "bottle_filler": "",
+        "seasonal": "",
+        "indoor": "",
+        "drinking_water": "",
+        "description": "",
+        "note": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -89.3878714,
+          43.0512908
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": 9010492078,
+        "@type": "node",
+        "name": "East Olin Avenue, Madison",
+        "operator": "",
+        "access": "",
+        "bottle_filler": "",
+        "seasonal": "",
+        "indoor": "",
+        "drinking_water": "",
+        "description": "",
+        "note": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -89.3820232,
+          43.052298
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": 9010492079,
+        "@type": "node",
+        "name": "Elm Drive, Madison",
+        "operator": "",
+        "access": "",
+        "bottle_filler": "",
+        "seasonal": "",
+        "indoor": "",
+        "drinking_water": "",
+        "description": "",
+        "note": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -89.4156683,
+          43.0768666
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": 9010492080,
+        "@type": "node",
+        "name": "UW West Rec Park",
+        "operator": "",
+        "access": "",
+        "bottle_filler": "",
+        "seasonal": "",
+        "indoor": "",
+        "drinking_water": "",
+        "description": "",
+        "note": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -89.4216294,
+          43.0770497
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": 9338746723,
+        "@type": "node",
+        "name": "Owen Trail, Madison",
+        "operator": "",
+        "access": "",
+        "bottle_filler": "",
+        "seasonal": "",
+        "indoor": "",
+        "drinking_water": "",
+        "description": "",
+        "note": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -89.4407974,
+          43.068376
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": 9879026978,
+        "@type": "node",
+        "name": "East Pass, Madison",
+        "operator": "",
+        "access": "",
+        "bottle_filler": "",
+        "seasonal": "",
+        "indoor": "",
+        "drinking_water": "",
+        "description": "",
+        "note": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -89.5072693,
+          43.009907
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": 9939769867,
+        "@type": "node",
+        "name": "Notre Dame Drive, Fahey Fields, Fitchburg, Dane County, Wisconsin, 53711, United States",
+        "operator": "",
+        "access": "",
+        "bottle_filler": "",
+        "seasonal": "",
+        "indoor": "no",
+        "drinking_water": "",
+        "description": "",
+        "note": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -89.4078916,
+          42.9959633
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": 9968965983,
+        "@type": "node",
+        "name": "Walnut Grove Park",
+        "operator": "",
+        "access": "",
+        "bottle_filler": "",
+        "seasonal": "",
+        "indoor": "",
+        "drinking_water": "",
+        "description": "",
+        "note": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -89.5120204,
+          43.0694188
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": 10073336604,
+        "@type": "node",
+        "name": "Mendota Avenue, Middleton, Dane County, Wisconsin, 53562, United States",
+        "operator": "",
+        "access": "",
+        "bottle_filler": "",
+        "seasonal": "",
+        "indoor": "",
+        "drinking_water": "",
+        "description": "",
+        "note": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -89.4880667,
+          43.0976704
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": 10073336605,
+        "@type": "node",
+        "name": "Lakeview Park",
+        "operator": "",
+        "access": "",
+        "bottle_filler": "",
+        "seasonal": "",
+        "indoor": "",
+        "drinking_water": "",
+        "description": "",
+        "note": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -89.4882777,
+          43.0976462
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": 10198322250,
+        "@type": "node",
+        "name": "South Carroll Street, Madison",
+        "operator": "",
+        "access": "",
+        "bottle_filler": "",
+        "seasonal": "",
+        "indoor": "",
+        "drinking_water": "",
+        "description": "",
+        "note": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -89.3850611,
+          43.0739105
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": 10198322267,
+        "@type": "node",
+        "name": "West Main Street, Madison",
+        "operator": "",
+        "access": "",
+        "bottle_filler": "",
+        "seasonal": "",
+        "indoor": "",
+        "drinking_water": "",
+        "description": "",
+        "note": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -89.3840361,
+          43.0733852
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": 10198322304,
+        "@type": "node",
+        "name": "South Pinckney Street, Madison",
+        "operator": "",
+        "access": "",
+        "bottle_filler": "",
+        "seasonal": "",
+        "indoor": "",
+        "drinking_water": "",
+        "description": "",
+        "note": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -89.3823812,
+          43.0748005
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": 10198322329,
+        "@type": "node",
+        "name": "East Mifflin Street, Madison",
+        "operator": "",
+        "access": "",
+        "bottle_filler": "",
+        "seasonal": "",
+        "indoor": "",
+        "drinking_water": "",
+        "description": "",
+        "note": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -89.3843137,
+          43.0760158
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": 10290561705,
+        "@type": "node",
+        "name": "21st Street, Westwynde, Village of Prairie du Sac, Sauk County, Wisconsin, 53578, United States",
+        "operator": "",
+        "access": "",
+        "bottle_filler": "",
+        "seasonal": "",
+        "indoor": "",
+        "drinking_water": "",
+        "description": "",
+        "note": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -89.7476088,
+          43.2881878
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": 10580933512,
+        "@type": "node",
+        "name": "East Towne Mall, Madison",
+        "operator": "",
+        "access": "",
+        "bottle_filler": "",
+        "seasonal": "",
+        "indoor": "",
+        "drinking_water": "",
+        "description": "",
+        "note": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -89.3038768,
+          43.1251053
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": 10587274483,
+        "@type": "node",
+        "name": "Babcock Drive, Madison",
+        "operator": "",
+        "access": "",
+        "bottle_filler": "",
+        "seasonal": "",
+        "indoor": "",
+        "drinking_water": "",
+        "description": "",
+        "note": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -89.4133944,
+          43.075988
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": 10587274568,
+        "@type": "node",
+        "name": "Babcock Drive, Madison",
+        "operator": "",
+        "access": "",
+        "bottle_filler": "",
+        "seasonal": "",
+        "indoor": "",
+        "drinking_water": "",
+        "description": "",
+        "note": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -89.4135704,
+          43.0761667
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": 11042476248,
+        "@type": "node",
+        "name": "Flambeau Road, Madison",
+        "operator": "",
+        "access": "",
+        "bottle_filler": "",
+        "seasonal": "",
+        "indoor": "",
+        "drinking_water": "",
+        "description": "",
+        "note": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -89.4642784,
+          43.0763792
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": 11163185102,
+        "@type": "node",
+        "name": "Stevens Street, Madison",
+        "operator": "",
+        "access": "",
+        "bottle_filler": "",
+        "seasonal": "",
+        "indoor": "",
+        "drinking_water": "",
+        "description": "",
+        "note": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -89.4347162,
+          43.0723856
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": 11278658877,
+        "@type": "node",
+        "name": "Chapel Valley Road, Chapel Valley, Fitchburg, Dane County, Wisconsin, 53711, United States",
+        "operator": "",
+        "access": "",
+        "bottle_filler": "",
+        "seasonal": "",
+        "indoor": "",
+        "drinking_water": "",
+        "description": "",
+        "note": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -89.4330577,
+          43.0132561
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": 11846154415,
+        "@type": "node",
+        "name": "Greenfield Park Road, Oakhaven Park, Fitchburg, Dane County, Wisconsin, United States",
+        "operator": "City of Fitchburg",
+        "access": "yes",
+        "bottle_filler": "",
+        "seasonal": "",
+        "indoor": "",
+        "drinking_water": "",
+        "description": "",
+        "note": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -89.3986912,
+          42.9847669
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": 11975557137,
+        "@type": "node",
+        "name": "Williamsburg Way, Jamestown, Fitchburg, Dane County, Wisconsin, 53719, United States",
+        "operator": "",
+        "access": "",
+        "bottle_filler": "",
+        "seasonal": "",
+        "indoor": "",
+        "drinking_water": "",
+        "description": "",
+        "note": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -89.4833279,
+          43.0238497
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": 11975557138,
+        "@type": "node",
+        "name": "Cannonball-Capital City Connector, Madison",
+        "operator": "",
+        "access": "",
+        "bottle_filler": "",
+        "seasonal": "",
+        "indoor": "",
+        "drinking_water": "",
+        "description": "",
+        "note": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -89.4336129,
+          43.023969
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": 11975570600,
+        "@type": "node",
+        "name": "Coach House Drive, Madison",
+        "operator": "",
+        "access": "",
+        "bottle_filler": "",
+        "seasonal": "",
+        "indoor": "",
+        "drinking_water": "",
+        "description": "",
+        "note": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -89.2935111,
+          43.093903
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": 11975570601,
+        "@type": "node",
+        "name": "McGinnis Park",
+        "operator": "",
+        "access": "",
+        "bottle_filler": "",
+        "seasonal": "",
+        "indoor": "",
+        "drinking_water": "",
+        "description": "",
+        "note": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -89.3031219,
+          43.0979522
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": 11975570602,
+        "@type": "node",
+        "name": "Meadowlark Drive, Madison",
+        "operator": "",
+        "access": "",
+        "bottle_filler": "",
+        "seasonal": "",
+        "indoor": "",
+        "drinking_water": "",
+        "description": "",
+        "note": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -89.295995,
+          43.0881917
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": 11975581683,
+        "@type": "node",
+        "name": "Mesta Lane, Madison",
+        "operator": "",
+        "access": "",
+        "bottle_filler": "",
+        "seasonal": "",
+        "indoor": "",
+        "drinking_water": "",
+        "description": "",
+        "note": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -89.2960453,
+          43.1093887
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": 11975581684,
+        "@type": "node",
+        "name": "Glacier Hill Drive, Madison",
+        "operator": "",
+        "access": "",
+        "bottle_filler": "",
+        "seasonal": "",
+        "indoor": "",
+        "drinking_water": "",
+        "description": "",
+        "note": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -89.2906809,
+          43.1143073
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": 11975581685,
+        "@type": "node",
+        "name": "Nakoosa Trail, Madison",
+        "operator": "",
+        "access": "",
+        "bottle_filler": "",
+        "seasonal": "",
+        "indoor": "",
+        "drinking_water": "",
+        "description": "",
+        "note": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -89.301399,
+          43.1109708
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": 11975665296,
+        "@type": "node",
+        "name": "Reindahl Park Bike Path, Madison",
+        "operator": "",
+        "access": "",
+        "bottle_filler": "",
+        "seasonal": "",
+        "indoor": "",
+        "drinking_water": "",
+        "description": "",
+        "note": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -89.3194116,
+          43.1216598
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": 11975665297,
+        "@type": "node",
+        "name": "Milwaukee Street, Madison",
+        "operator": "",
+        "access": "yes",
+        "bottle_filler": "",
+        "seasonal": "",
+        "indoor": "",
+        "drinking_water": "",
+        "description": "",
+        "note": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -89.3080178,
+          43.0988305
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": 11976221867,
+        "@type": "node",
+        "name": "Garver Path",
+        "operator": "",
+        "access": "yes",
+        "bottle_filler": "",
+        "seasonal": "",
+        "indoor": "",
+        "drinking_water": "",
+        "description": "",
+        "note": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -89.3302807,
+          43.0971411
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": 11978695798,
+        "@type": "node",
+        "name": "BB Clarke Beach",
+        "operator": "",
+        "access": "yes",
+        "bottle_filler": "",
+        "seasonal": "",
+        "indoor": "",
+        "drinking_water": "",
+        "description": "",
+        "note": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -89.368809,
+          43.0778119
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": 12057595085,
+        "@type": "node",
+        "name": "Glenway Street, Madison",
+        "operator": "",
+        "access": "",
+        "bottle_filler": "",
+        "seasonal": "",
+        "indoor": "",
+        "drinking_water": "",
+        "description": "",
+        "note": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -89.4388533,
+          43.0657976
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": 12148906481,
+        "@type": "node",
+        "name": "Upper Yahara River Trail, The Promenade a Conservancy Place, DeForest, Dane County, Wisconsin, 53598, United States",
+        "operator": "",
+        "access": "yes",
+        "bottle_filler": "",
+        "seasonal": "",
+        "indoor": "",
+        "drinking_water": "",
+        "description": "",
+        "note": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -89.3518129,
+          43.216662
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": 12148906482,
+        "@type": "node",
+        "name": "Innovation Drive, Hawthorn Point at Conservancy Place, DeForest, Dane County, Wisconsin, 53598, United States",
+        "operator": "",
+        "access": "yes",
+        "bottle_filler": "",
+        "seasonal": "",
+        "indoor": "",
+        "drinking_water": "",
+        "description": "",
+        "note": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -89.3498911,
+          43.2259924
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": 12208979998,
+        "@type": "node",
+        "name": "South Ingersoll Street, Madison",
+        "operator": "",
+        "access": "",
+        "bottle_filler": "",
+        "seasonal": "",
+        "indoor": "",
+        "drinking_water": "",
+        "description": "",
+        "note": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -89.3675244,
+          43.0827589
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": 12271836578,
+        "@type": "node",
+        "name": "Cannery Square, Sun Prairie, Dane County, Wisconsin, 53590, United States",
+        "operator": "",
+        "access": "",
+        "bottle_filler": "",
+        "seasonal": "",
+        "indoor": "",
+        "drinking_water": "",
+        "description": "",
+        "note": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -89.2105578,
+          43.1826154
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": 12280156471,
+        "@type": "node",
+        "name": "Linnerud Drive, Prairie Enterprises, Sun Prairie, Dane County, Wisconsin, 53590, United States",
+        "operator": "",
+        "access": "",
+        "bottle_filler": "",
+        "seasonal": "",
+        "indoor": "",
+        "drinking_water": "",
+        "description": "",
+        "note": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -89.2350584,
+          43.1739018
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": 12280173517,
+        "@type": "node",
+        "name": "Linnerud Drive, Prairie Enterprises, Sun Prairie, Dane County, Wisconsin, 53590, United States",
+        "operator": "",
+        "access": "",
+        "bottle_filler": "",
+        "seasonal": "",
+        "indoor": "",
+        "drinking_water": "",
+        "description": "",
+        "note": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -89.2359508,
+          43.1742209
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": 12312870659,
+        "@type": "node",
+        "name": "Stonehaven Drive, Stoneridge Estates, Sun Prairie, Dane County, Wisconsin, 53590, United States",
+        "operator": "",
+        "access": "",
+        "bottle_filler": "",
+        "seasonal": "",
+        "indoor": "",
+        "drinking_water": "",
+        "description": "",
+        "note": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -89.2179214,
+          43.2011308
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": 12346324144,
+        "@type": "node",
+        "name": "East Wilson Street, Madison",
+        "operator": "",
+        "access": "yes",
+        "bottle_filler": "",
+        "seasonal": "",
+        "indoor": "no",
+        "drinking_water": "",
+        "description": "",
+        "note": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -89.3659415,
+          43.0843231
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": 12708583955,
+        "@type": "node",
+        "name": "Steven Street, Renstone, Sun Prairie, Dane County, Wisconsin, 53590, United States",
+        "operator": "",
+        "access": "",
+        "bottle_filler": "",
+        "seasonal": "",
+        "indoor": "",
+        "drinking_water": "",
+        "description": "",
+        "note": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -89.2413351,
+          43.1913728
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": 12729925344,
+        "@type": "node",
+        "name": "Vandenburg Street, Vandenburg Heights, Sun Prairie, Dane County, Wisconsin, 53590, United States",
+        "operator": "",
+        "access": "",
+        "bottle_filler": "",
+        "seasonal": "",
+        "indoor": "",
+        "drinking_water": "",
+        "description": "",
+        "note": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -89.2306021,
+          43.1934174
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": 12879130887,
+        "@type": "node",
+        "name": "South Brearly Street, Madison",
+        "operator": "",
+        "access": "",
+        "bottle_filler": "",
+        "seasonal": "",
+        "indoor": "",
+        "drinking_water": "",
+        "description": "",
+        "note": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -89.3679769,
+          43.0808852
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": 12897306047,
+        "@type": "node",
+        "name": "Elvehjem Road, McFarland, Town of Dunn, Dane County, Wisconsin, 53558, United States",
+        "operator": "",
+        "access": "yes",
+        "bottle_filler": "",
+        "seasonal": "",
+        "indoor": "no",
+        "drinking_water": "",
+        "description": "",
+        "note": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -89.2732369,
+          43.0050598
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": 12908497666,
+        "@type": "node",
+        "name": "Saint Albert the Great Drive, Westwynde, Sun Prairie, Dane County, Wisconsin, 53590, United States",
+        "operator": "",
+        "access": "",
+        "bottle_filler": "",
+        "seasonal": "",
+        "indoor": "",
+        "drinking_water": "",
+        "description": "",
+        "note": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -89.2509317,
+          43.1961735
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": 12913484127,
+        "@type": "node",
+        "name": "Tara Drive, Hickory Grove Estates, Sun Prairie, Dane County, Wisconsin, 53590, United States",
+        "operator": "",
+        "access": "",
+        "bottle_filler": "",
+        "seasonal": "",
+        "indoor": "",
+        "drinking_water": "",
+        "description": "",
+        "note": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -89.2367556,
+          43.199244
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": 12970216253,
+        "@type": "node",
+        "name": "Campground Road, Town of Brigham",
+        "operator": "",
+        "access": "",
+        "bottle_filler": "",
+        "seasonal": "",
+        "indoor": "no",
+        "drinking_water": "",
+        "description": "",
+        "note": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -89.8504408,
+          43.0228419
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": 442022562,
+        "@type": "way",
+        "name": "Spring House",
+        "operator": "",
+        "access": "",
+        "bottle_filler": "",
+        "seasonal": "",
+        "indoor": "",
+        "drinking_water": "",
+        "description": "",
+        "note": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -89.6136814,
+          43.0816331
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -89.3587975,
+          43.0470479,
+          0
+        ]
+      },
+      "properties": {
+        "name": "Esther Beach Park",
+        "styleUrl": "#icon-1899-0288D1-nodesc",
+        "icon-opacity": 1,
+        "icon-color": "#0288d1",
+        "icon-scale": 1,
+        "icon-offset": [
+          32,
+          64
+        ],
+        "icon-offset-units": [
+          "pixels",
+          "insetPixels"
+        ],
+        "icon": "https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -89.3761392,
+          43.0542248,
+          0
+        ]
+      },
+      "properties": {
+        "name": "Olin Park",
+        "styleUrl": "#icon-1899-0288D1-nodesc",
+        "icon-opacity": 1,
+        "icon-color": "#0288d1",
+        "icon-scale": 1,
+        "icon-offset": [
+          32,
+          64
+        ],
+        "icon-offset-units": [
+          "pixels",
+          "insetPixels"
+        ],
+        "icon": "https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -89.3992607,
+          43.0632491,
+          0
+        ]
+      },
+      "properties": {
+        "name": "Brittingham Park Pavilion ",
+        "styleUrl": "#icon-1899-0288D1-nodesc",
+        "icon-opacity": 1,
+        "icon-color": "#0288d1",
+        "icon-scale": 1,
+        "icon-offset": [
+          32,
+          64
+        ],
+        "icon-offset-units": [
+          "pixels",
+          "insetPixels"
+        ],
+        "icon": "https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -89.3358658,
+          43.0914868,
+          0
+        ]
+      },
+      "properties": {
+        "name": "Olbrich Park",
+        "styleUrl": "#icon-1899-0288D1-nodesc",
+        "icon-opacity": 1,
+        "icon-color": "#0288d1",
+        "icon-scale": 1,
+        "icon-offset": [
+          32,
+          64
+        ],
+        "icon-offset-units": [
+          "pixels",
+          "insetPixels"
+        ],
+        "icon": "https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -89.4334896,
+          43.0542775,
+          0
+        ]
+      },
+      "properties": {
+        "name": "Dudgeon School Park",
+        "styleUrl": "#icon-1899-0288D1-nodesc",
+        "icon-opacity": 1,
+        "icon-color": "#0288d1",
+        "icon-scale": 1,
+        "icon-offset": [
+          32,
+          64
+        ],
+        "icon-offset-units": [
+          "pixels",
+          "insetPixels"
+        ],
+        "icon": "https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -89.4430349,
+          43.0682712,
+          0
+        ]
+      },
+      "properties": {
+        "name": "Hoyt Park Lower Shelter",
+        "description": {
+          "@type": "html",
+          "value": "Not exact positioning - couldn't confirm on street view but guessing based on reddit comment."
+        },
+        "styleUrl": "#icon-1899-0288D1",
+        "icon-opacity": 1,
+        "icon-color": "#0288d1",
+        "icon-scale": 1,
+        "icon-offset": [
+          32,
+          64
+        ],
+        "icon-offset-units": [
+          "pixels",
+          "insetPixels"
+        ],
+        "icon": "https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -89.3520543,
+          43.1088847,
+          0
+        ]
+      },
+      "properties": {
+        "name": "Eken Park",
+        "description": {
+          "@type": "html",
+          "value": "Somewhere in park, point isn't perfect."
+        },
+        "styleUrl": "#icon-1899-0288D1",
+        "icon-opacity": 1,
+        "icon-color": "#0288d1",
+        "icon-scale": 1,
+        "icon-offset": [
+          32,
+          64
+        ],
+        "icon-offset-units": [
+          "pixels",
+          "insetPixels"
+        ],
+        "icon": "https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -89.5125878729419,
+          43.0473961110743,
+          0
+        ]
+      },
+      "properties": {
+        "name": "High Point Park",
+        "styleUrl": "#icon-1899-0288D1-nodesc",
+        "icon-opacity": 1,
+        "icon-color": "#0288d1",
+        "icon-scale": 1,
+        "icon-offset": [
+          32,
+          64
+        ],
+        "icon-offset-units": [
+          "pixels",
+          "insetPixels"
+        ],
+        "icon": "https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -89.5021210345257,
+          43.0380449612318,
+          0
+        ]
+      },
+      "properties": {
+        "name": "Elver Park shelter",
+        "styleUrl": "#icon-1899-0288D1-nodesc",
+        "icon-opacity": 1,
+        "icon-color": "#0288d1",
+        "icon-scale": 1,
+        "icon-offset": [
+          32,
+          64
+        ],
+        "icon-offset-units": [
+          "pixels",
+          "insetPixels"
+        ],
+        "icon": "https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -89.4626104123757,
+          43.0708292138044,
+          0
+        ]
+      },
+      "properties": {
+        "name": "Rennebohm Park",
+        "styleUrl": "#icon-1899-0288D1-nodesc",
+        "icon-opacity": 1,
+        "icon-color": "#0288d1",
+        "icon-scale": 1,
+        "icon-offset": [
+          32,
+          64
+        ],
+        "icon-offset-units": [
+          "pixels",
+          "insetPixels"
+        ],
+        "icon": "https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -89.4851757,
+          43.0241387,
+          0
+        ]
+      },
+      "properties": {
+        "name": "Huegel Park",
+        "description": "Pin not 100% accurate but fountain reported in this park by multiple people.",
+        "styleUrl": "#icon-1899-0288D1",
+        "icon-opacity": 1,
+        "icon-color": "#0288d1",
+        "icon-scale": 1,
+        "icon-offset": [
+          32,
+          64
+        ],
+        "icon-offset-units": [
+          "pixels",
+          "insetPixels"
+        ],
+        "icon": "https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -89.435311779816,
+          43.0829432409378,
+          0
+        ]
+      },
+      "properties": {
+        "name": "University Bay Fields",
+        "styleUrl": "#icon-1899-0288D1-nodesc",
+        "icon-opacity": 1,
+        "icon-color": "#0288d1",
+        "icon-scale": 1,
+        "icon-offset": [
+          32,
+          64
+        ],
+        "icon-offset-units": [
+          "pixels",
+          "insetPixels"
+        ],
+        "icon": "https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -89.367130496673,
+          43.0919752259411,
+          0
+        ]
+      },
+      "properties": {
+        "name": "Tenney Park",
+        "styleUrl": "#icon-1899-0288D1-nodesc",
+        "icon-opacity": 1,
+        "icon-color": "#0288d1",
+        "icon-scale": 1,
+        "icon-offset": [
+          32,
+          64
+        ],
+        "icon-offset-units": [
+          "pixels",
+          "insetPixels"
+        ],
+        "icon": "https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -89.3635232975154,
+          43.0812342721245,
+          0
+        ]
+      },
+      "properties": {
+        "name": "Orton Park",
+        "styleUrl": "#icon-1899-0288D1-nodesc",
+        "icon-opacity": 1,
+        "icon-color": "#0288d1",
+        "icon-scale": 1,
+        "icon-offset": [
+          32,
+          64
+        ],
+        "icon-offset-units": [
+          "pixels",
+          "insetPixels"
+        ],
+        "icon": "https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -89.3387471,
+          43.0014965,
+          0
+        ]
+      },
+      "properties": {
+        "name": "Goodland County Park",
+        "styleUrl": "#icon-1899-0288D1-nodesc",
+        "icon-opacity": 1,
+        "icon-color": "#0288d1",
+        "icon-scale": 1,
+        "icon-offset": [
+          32,
+          64
+        ],
+        "icon-offset-units": [
+          "pixels",
+          "insetPixels"
+        ],
+        "icon": "https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -89.3078319,
+          43.0265823,
+          0
+        ]
+      },
+      "properties": {
+        "name": "McDaniel Park",
+        "styleUrl": "#icon-1899-0288D1-nodesc",
+        "icon-opacity": 1,
+        "icon-color": "#0288d1",
+        "icon-scale": 1,
+        "icon-offset": [
+          32,
+          64
+        ],
+        "icon-offset-units": [
+          "pixels",
+          "insetPixels"
+        ],
+        "icon": "https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -89.306839,
+          43.0066379,
+          0
+        ]
+      },
+      "properties": {
+        "name": "Babcock County Park",
+        "styleUrl": "#icon-1899-0288D1-nodesc",
+        "icon-opacity": 1,
+        "icon-color": "#0288d1",
+        "icon-scale": 1,
+        "icon-offset": [
+          32,
+          64
+        ],
+        "icon-offset-units": [
+          "pixels",
+          "insetPixels"
+        ],
+        "icon": "https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -89.2930546,
+          43.093702,
+          0
+        ]
+      },
+      "properties": {
+        "name": "Kennedy Park",
+        "styleUrl": "#icon-1899-0288D1-nodesc",
+        "icon-opacity": 1,
+        "icon-color": "#0288d1",
+        "icon-scale": 1,
+        "icon-offset": [
+          32,
+          64
+        ],
+        "icon-offset-units": [
+          "pixels",
+          "insetPixels"
+        ],
+        "icon": "https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -89.4238154,
+          43.067929,
+          0
+        ]
+      },
+      "properties": {
+        "name": "Regent x Allen",
+        "description": "This is unconfirmed but the intersection is reported to have one.",
+        "styleUrl": "#icon-1899-0288D1",
+        "icon-opacity": 1,
+        "icon-color": "#0288d1",
+        "icon-scale": 1,
+        "icon-offset": [
+          32,
+          64
+        ],
+        "icon-offset-units": [
+          "pixels",
+          "insetPixels"
+        ],
+        "icon": "https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -89.4395271,
+          43.0656144,
+          0
+        ]
+      },
+      "properties": {
+        "name": "Reservoir Park",
+        "description": "Location within park is not exact.",
+        "styleUrl": "#icon-1899-0288D1",
+        "icon-opacity": 1,
+        "icon-color": "#0288d1",
+        "icon-scale": 1,
+        "icon-offset": [
+          32,
+          64
+        ],
+        "icon-offset-units": [
+          "pixels",
+          "insetPixels"
+        ],
+        "icon": "https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -89.3812148,
+          43.0725559,
+          0
+        ]
+      },
+      "properties": {
+        "name": "E Wilson St at Olin Terrace",
+        "styleUrl": "#icon-1899-0288D1-nodesc",
+        "icon-opacity": 1,
+        "icon-color": "#0288d1",
+        "icon-scale": 1,
+        "icon-offset": [
+          32,
+          64
+        ],
+        "icon-offset-units": [
+          "pixels",
+          "insetPixels"
+        ],
+        "icon": "https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -89.48555,
+          43.0939295,
+          0
+        ]
+      },
+      "properties": {
+        "name": "Marshall Park",
+        "styleUrl": "#icon-1899-0288D1-nodesc",
+        "icon-opacity": 1,
+        "icon-color": "#0288d1",
+        "icon-scale": 1,
+        "icon-offset": [
+          32,
+          64
+        ],
+        "icon-offset-units": [
+          "pixels",
+          "insetPixels"
+        ],
+        "icon": "https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -89.4141416,
+          43.059038,
+          0
+        ]
+      },
+      "properties": {
+        "name": "Vilas Park Near Lagoon",
+        "styleUrl": "#icon-1899-0288D1-nodesc",
+        "icon-opacity": 1,
+        "icon-color": "#0288d1",
+        "icon-scale": 1,
+        "icon-offset": [
+          32,
+          64
+        ],
+        "icon-offset-units": [
+          "pixels",
+          "insetPixels"
+        ],
+        "icon": "https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -89.4735492,
+          43.0343434,
+          0
+        ]
+      },
+      "properties": {
+        "name": "Gilbert Rd",
+        "styleUrl": "#icon-1899-0288D1-nodesc",
+        "icon-opacity": 1,
+        "icon-color": "#0288d1",
+        "icon-scale": 1,
+        "icon-offset": [
+          32,
+          64
+        ],
+        "icon-offset-units": [
+          "pixels",
+          "insetPixels"
+        ],
+        "icon": "https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -89.3354942,
+          43.0553064,
+          0
+        ]
+      },
+      "properties": {
+        "name": "Frost Woods Park",
+        "styleUrl": "#icon-1899-0288D1-nodesc",
+        "icon-opacity": 1,
+        "icon-color": "#0288d1",
+        "icon-scale": 1,
+        "icon-offset": [
+          32,
+          64
+        ],
+        "icon-offset-units": [
+          "pixels",
+          "insetPixels"
+        ],
+        "icon": "https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -89.5223181,
+          42.9544838,
+          0
+        ]
+      },
+      "properties": {
+        "name": "Scheidegger Forest County Park",
+        "styleUrl": "#icon-1899-0288D1-nodesc",
+        "icon-opacity": 1,
+        "icon-color": "#0288d1",
+        "icon-scale": 1,
+        "icon-offset": [
+          32,
+          64
+        ],
+        "icon-offset-units": [
+          "pixels",
+          "insetPixels"
+        ],
+        "icon": "https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -89.4772958,
+          43.1187782,
+          0
+        ]
+      },
+      "properties": {
+        "name": "Orchid Heights Park",
+        "styleUrl": "#icon-1899-0288D1-nodesc",
+        "icon-opacity": 1,
+        "icon-color": "#0288d1",
+        "icon-scale": 1,
+        "icon-offset": [
+          32,
+          64
+        ],
+        "icon-offset-units": [
+          "pixels",
+          "insetPixels"
+        ],
+        "icon": "https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -89.515716013979,
+          43.0944573829364,
+          0
+        ]
+      },
+      "properties": {
+        "name": "Middleton Skate Park",
+        "styleUrl": "#icon-1899-0288D1-nodesc",
+        "icon-opacity": 1,
+        "icon-color": "#0288d1",
+        "icon-scale": 1,
+        "icon-offset": [
+          32,
+          64
+        ],
+        "icon-offset-units": [
+          "pixels",
+          "insetPixels"
+        ],
+        "icon": "https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -89.5091182,
+          43.1005957,
+          0
+        ]
+      },
+      "properties": {
+        "name": "Firemen's Park",
+        "description": "This bubbler is behind a locked door.  Hours unknown.  Not sure if closed seasonally or daily.",
+        "styleUrl": "#icon-1899-0288D1",
+        "icon-opacity": 1,
+        "icon-color": "#0288d1",
+        "icon-scale": 1,
+        "icon-offset": [
+          32,
+          64
+        ],
+        "icon-offset-units": [
+          "pixels",
+          "insetPixels"
+        ],
+        "icon": "https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -89.4911497,
+          43.0964314,
+          0
+        ]
+      },
+      "properties": {
+        "name": "Sorenson Field",
+        "description": "Next to sidewalk",
+        "styleUrl": "#icon-1899-0288D1",
+        "icon-opacity": 1,
+        "icon-color": "#0288d1",
+        "icon-scale": 1,
+        "icon-offset": [
+          32,
+          64
+        ],
+        "icon-offset-units": [
+          "pixels",
+          "insetPixels"
+        ],
+        "icon": "https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -89.2630967,
+          42.9821693,
+          0
+        ]
+      },
+      "properties": {
+        "name": "Fish Camp Boat Launch",
+        "styleUrl": "#icon-1899-0288D1-nodesc",
+        "icon-opacity": 1,
+        "icon-color": "#0288d1",
+        "icon-scale": 1,
+        "icon-offset": [
+          32,
+          64
+        ],
+        "icon-offset-units": [
+          "pixels",
+          "insetPixels"
+        ],
+        "icon": "https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -89.2306147,
+          42.9733039,
+          0
+        ]
+      },
+      "properties": {
+        "name": "Lake Kegonsa State Park",
+        "styleUrl": "#icon-1899-0288D1-nodesc",
+        "icon-opacity": 1,
+        "icon-color": "#0288d1",
+        "icon-scale": 1,
+        "icon-offset": [
+          32,
+          64
+        ],
+        "icon-offset-units": [
+          "pixels",
+          "insetPixels"
+        ],
+        "icon": "https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -89.7256301,
+          43.2297891,
+          0
+        ]
+      },
+      "properties": {
+        "name": "Lower Wisconsin State Riverway",
+        "styleUrl": "#icon-1899-0288D1-nodesc",
+        "icon-opacity": 1,
+        "icon-color": "#0288d1",
+        "icon-scale": 1,
+        "icon-offset": [
+          32,
+          64
+        ],
+        "icon-offset-units": [
+          "pixels",
+          "insetPixels"
+        ],
+        "icon": "https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -89.4455298,
+          43.1645661,
+          0
+        ]
+      },
+      "properties": {
+        "name": "Blue Ridge Park",
+        "styleUrl": "#icon-1899-0288D1-nodesc",
+        "icon-opacity": 1,
+        "icon-color": "#0288d1",
+        "icon-scale": 1,
+        "icon-offset": [
+          32,
+          64
+        ],
+        "icon-offset-units": [
+          "pixels",
+          "insetPixels"
+        ],
+        "icon": "https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png"
+      }
+    }
+  ]
+}
