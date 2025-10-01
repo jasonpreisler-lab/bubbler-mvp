@@ -2,12 +2,14 @@
 <html>
 <head>
   <meta charset="utf-8" />
-  <title>Where’s the Bubbler? — MVP</title>
+  <title>Where’s the Bubbler? — Live Sheet</title>
   <meta name="viewport" content="width=device-width, initial-scale=1" />
 
   <!-- Leaflet CSS & JS -->
   <link href="https://cdn.jsdelivr.net/npm/leaflet@1.9.4/dist/leaflet.css" rel="stylesheet" />
   <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.4/dist/leaflet.js"></script>
+  <!-- PapaParse for CSV parsing -->
+  <script src="https://cdn.jsdelivr.net/npm/papaparse@5.4.1/papaparse.min.js"></script>
 
   <style>
     body { margin: 0; font-family: system-ui, sans-serif; display: flex; flex-direction: column; height: 100vh; }
@@ -31,55 +33,69 @@
 
   <div id="map"></div>
 
-  <!-- Legend -->
   <div id="legend">
     <img src="https://raw.githubusercontent.com/pointhi/leaflet-color-markers/master/img/marker-icon-blue.png" width="12"> Fountain<br>
     <img src="https://raw.githubusercontent.com/pointhi/leaflet-color-markers/master/img/marker-icon-green.png" width="12"> Fountain with bottle filler
   </div>
 
   <footer>
-    Data © <a href="https://www.openstreetmap.org/" target="_blank">OpenStreetMap contributors</a> · Built with 💙 in Madison
+    Data © Google Sheets · Map © <a href="https://www.openstreetmap.org/" target="_blank">OpenStreetMap contributors</a>
   </footer>
 
   <script>
+    const SHEET_CSV_URL = "https://docs.google.com/spreadsheets/d/1PLY-8llP5O8NO7PMGXRD5urL32NT4z8taT8usPl3t9w/export?format=csv";
+
     const map = L.map('map').setView([43.0731, -89.4012], 12);
     L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
       maxZoom: 19,
       attribution: '© OpenStreetMap contributors'
     }).addTo(map);
 
-    function makeOSMMarker(feature, latlng) {
-      const bf = (feature.properties?.bottle_filler || '').toLowerCase();
-      const iconUrl = (bf === 'yes')
-        ? 'https://raw.githubusercontent.com/pointhi/leaflet-color-markers/master/img/marker-icon-green.png'
-        : 'https://raw.githubusercontent.com/pointhi/leaflet-color-markers/master/img/marker-icon-blue.png';
+    function makeMarker(row) {
+      const bf = (row.bottle_filler || "").toLowerCase();
+      const iconUrl = (bf === "yes")
+        ? "https://raw.githubusercontent.com/pointhi/leaflet-color-markers/master/img/marker-icon-green.png"
+        : "https://raw.githubusercontent.com/pointhi/leaflet-color-markers/master/img/marker-icon-blue.png";
+
       const icon = L.icon({
         iconUrl,
         iconSize: [25, 41],
         iconAnchor: [12, 41],
         popupAnchor: [1, -34],
-        shadowUrl: 'https://cdn.jsdelivr.net/npm/leaflet@1.9.4/dist/images/marker-shadow.png',
+        shadowUrl: "https://cdn.jsdelivr.net/npm/leaflet@1.9.4/dist/images/marker-shadow.png",
         shadowSize: [41, 41],
         shadowAnchor: [12, 41]
       });
-      return L.marker(latlng, { icon });
+
+      const lat = parseFloat(row.lat);
+      const lon = parseFloat(row.lon);
+      if (isNaN(lat) || isNaN(lon)) return null;
+
+      const popup = `
+        <b>${row.name || "Drinking Fountain"}</b>
+        ${bf === "yes" ? "<br>🚰 Bottle filler available" : ""}
+        ${row.seasonal?.toLowerCase() === "yes" ? "<br>❄️ Seasonal (may be off in winter)" : ""}
+        ${row.note ? `<br><small>${row.note}</small>` : ""}
+      `;
+
+      return L.marker([lat, lon], { icon }).bindPopup(popup);
     }
 
-    function makePopup(feature, layer) {
-      const p = feature.properties || {};
-      let html = `<b>${p.name || 'Drinking Fountain'}</b>`;
-      if ((p.bottle_filler || '').toLowerCase() === 'yes') html += `<br>🚰 Bottle filler available`;
-      if ((p.seasonal || '').toLowerCase() === 'yes') html += `<br>❄️ Seasonal (may be off in winter)`;
-      if (p.note) html += `<br><small>${p.note}</small>`;
-      layer.bindPopup(html);
-    }
+    // Load data from Google Sheets CSV
+    Papa.parse(SHEET_CSV_URL, {
+      download: true,
+      header: true,
+      complete: function(results) {
+        const markers = [];
+        results.data.forEach(row => {
+          const marker = makeMarker(row);
+          if (marker) markers.push(marker);
+        });
 
-    fetch('fountains_clean.geojson', { cache: 'no-store' })
-      .then(r => r.json())
-      .then(data => {
-        const layer = L.geoJSON(data, { pointToLayer: makeOSMMarker, onEachFeature: makePopup }).addTo(map);
-        try { map.fitBounds(layer.getBounds()); } catch(e) {}
-      });
+        const group = L.featureGroup(markers).addTo(map);
+        try { map.fitBounds(group.getBounds()); } catch(e) {}
+      }
+    });
   </script>
 </body>
 </html>
