@@ -2,7 +2,7 @@
 <html>
 <head>
   <meta charset="utf-8" />
-  <title>Where’s the Bubbler? — Live Sheet with Filters</title>
+  <title>Where’s the Bubbler? — Live Sheet with City Tags</title>
   <meta name="viewport" content="width=device-width, initial-scale=1" />
 
   <!-- Leaflet CSS & JS -->
@@ -51,8 +51,8 @@
   </footer>
 
   <script>
-    // 👉 Replace with your actual Sheet ID
-    const SHEET_CSV_URL = "https://docs.google.com/spreadsheets/d/1PLY-8llP5O8NO7PMGXRD5urL32NT4z8taT8usPl3t9w/export?format=csv";
+    // 👉 Replace with your actual Google Sheet ID
+    const SHEET_CSV_URL = "https://docs.google.com/spreadsheets/d/YOUR_SHEET_ID/export?format=csv";
 
     const map = L.map('map').setView([43.0731, -89.4012], 12);
     L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
@@ -84,8 +84,10 @@
       const lon = parseFloat(row.lon);
       if (isNaN(lat) || isNaN(lon)) return null;
 
+      // 👇 Updated popup to include city
       const popup = `
         <b>${row.name || "Drinking Fountain"}</b>
+        ${row.city ? `<br>📍 ${row.city}` : ""}
         ${hasBottleFiller ? "<br>🚰 Bottle filler available" : ""}
         ${row.seasonal?.toLowerCase().trim() === "yes" ? "<br>❄️ Seasonal (may be off in winter)" : ""}
         ${row.restrooms?.toLowerCase().trim() === "yes" ? "<br>🚻 Restrooms nearby" : ""}
@@ -104,10 +106,8 @@
       const shelterOn = document.getElementById("filterShelter").checked;
       const tablesOn = document.getElementById("filterTables").checked;
 
-      // remove all markers
       allMarkers.forEach(m => map.removeLayer(m));
 
-      // add back only those that match
       const filtered = allMarkers.filter(m => {
         const p = m.feature.properties;
         if (restroomsOn && (p.restrooms || "").toLowerCase().trim() !== "yes") return false;
@@ -124,7 +124,6 @@
       }
     }
 
-    // Load data from Google Sheets
     Papa.parse(SHEET_CSV_URL, {
       download: true,
       header: true,
@@ -140,7 +139,6 @@
       }
     });
 
-    // Hook up filters
     document.getElementById("filterRestrooms").addEventListener("change", applyFilters);
     document.getElementById("filterShelter").addEventListener("change", applyFilters);
     document.getElementById("filterTables").addEventListener("change", applyFilters);
